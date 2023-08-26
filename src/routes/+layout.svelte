@@ -4,11 +4,9 @@
 
 <nav>
     <a href="/">Home</a>
-    <a href="/gallery">Gallery</a>
     <a href="/services">Services</a>
     <a href="/policies">Policies</a>
-    <a href="/about-us">About Us</a>
-    <a href="/faq">F.A.Q</a>
+    <a href="/instagram">Instagram</a>
     <a href="/contact-us">Contact Us</a>
 </nav>
 

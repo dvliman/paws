@@ -20,6 +20,7 @@
 
 <nav>
     <a href="/">Home</a>
+    <a href="/about-us">About Us</a>
     <a href="/services">Services</a>
     <a href="/policies">Policies</a>
     <a href="/faq">F.A.Q</a>

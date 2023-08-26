@@ -4,6 +4,7 @@
 
 <nav>
     <a href="/">Home</a>
+    <a href="/gallery">Gallery</a>
     <a href="/services">Services</a>
     <a href="/policies">Policies</a>
     <a href="/about-us">About Us</a>

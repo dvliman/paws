@@ -7,7 +7,7 @@
             <li>Hair inside the ear, outside of the canal plucked, if necessary.</li>
             <li>Nails trimmed</li>
             <li>Bath, using the specialized shampoo and conditioner for your pets skin and coat condition.</li>
-            <li>Anal glands expressed, if necessary</li>
+            <li>Anal glands expression (upon request)</li>
             <li>Fluff drying – for a better finish</li>
             <li>Brush Out</li>
             <li>Sanitary area clipped</li>
@@ -43,7 +43,7 @@
             <li>Hair inside the ear, outside of the canal plucked, if necessary.</li>
             <li>Nails trimmed</li>
             <li>Bath, using the specialized shampoo and conditioner for your pets skin and coat condition.</li>
-            <li>Anal glands expressed, if necessary</li>
+            <li>Anal glands expression (upon request)</li>
             <li>Fluff drying – for a better finish</li>
             <li>Brush Out</li>
             <li>Sanitary area clipped</li>
@@ -53,22 +53,22 @@
         <div>
             <div>1 - 20lbs<div>
             <div>Small Dogs<div>
-            <div>$40 - $60<div>
+            <div>$80 - $90<div>
         </div>
         <div>
             <div>21 - 50lbs<div>
             <div>Medium Dogs<div>
-            <div>$60 - $75<div>
+            <div>$105 - $130<div>
         </div>
         <div>
             <div>51 - 99lbs<div>
             <div>Large Dogs<div>
-            <div>$75 - $95<div>
+            <div>$140 - $175+<div>
         </div>
         <div>
             <div>100+<div>
             <div>XL Dogs<div>
-            <div>$105 & up<div>
+            <div>$175 & up<div>
         </div>
     <section>
 </main>

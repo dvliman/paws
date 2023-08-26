@@ -1,10 +1,10 @@
 <main>
   <p>
-    <strong> Late Fee – $5.</strong> Clients that are more than 20 minutes late may be required to cancel and/or reschedule.
+    <strong> Late</strong> Clients that are more than 20 minutes late may be required to cancel and/or reschedule.
   </p>
 
   <p>
-    <strong>Cancelation fee – $20 per dog.</strong> We require a 2 business day notice to reschedule an appointment.
+    <strong>Cancelation fee – $20 per dog.</strong> We require a 24 hour notice to reschedule an appointment.
   </p>
 
   <p>

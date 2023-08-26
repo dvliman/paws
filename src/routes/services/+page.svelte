@@ -15,24 +15,24 @@
             <li>Haircut with hand scissor finish, on every dog</li>
         </ul>
         <div>
-            <div>1 - 20lbs<div>
-            <div>Small Dogs<div>
-            <div>$40 - $60<div>
+            <div>Up to 20 lbs</div>
+            <div>$40</div>
         </div>
         <div>
-            <div>21 - 50lbs<div>
-            <div>Medium Dogs<div>
-            <div>$60 - $75<div>
+            <div>21 - 40 lbs<div>
+            <div>$50</div>
         </div>
         <div>
-            <div>51 - 99lbs<div>
-            <div>Large Dogs<div>
-            <div>$75 - $95<div>
+            <div>41 - 60 lbs<div>
+            <div>$60</div>
         </div>
         <div>
-            <div>100+<div>
-            <div>XL Dogs<div>
-            <div>$105 & up<div>
+            <div>61 - 80 lbs<div>
+            <div>$70</div>
+        </div>
+        <div>
+            <div>81 lbs & up lbs<div>
+            <div>$80</div>
         </div>
     <section>
     <section>
@@ -51,24 +51,24 @@
             <li>Haircut with hand scissor finish, on every dog</li>
         </ul>
         <div>
-            <div>1 - 20lbs<div>
-            <div>Small Dogs<div>
-            <div>$80 - $90<div>
+            <div>Up to 20 lbs</div>
+            <div>$75</div>
         </div>
         <div>
-            <div>21 - 50lbs<div>
-            <div>Medium Dogs<div>
-            <div>$105 - $130<div>
+            <div>21 - 40 lbs<div>
+            <div>$85</div>
         </div>
         <div>
-            <div>51 - 99lbs<div>
-            <div>Large Dogs<div>
-            <div>$140 - $175+<div>
+            <div>41 - 60 lbs<div>
+            <div>$95</div>
         </div>
         <div>
-            <div>100+<div>
-            <div>XL Dogs<div>
-            <div>$175 & up<div>
+            <div>61 - 80 lbs<div>
+            <div>$105</div>
+        </div>
+        <div>
+            <div>81 lbs & up lbs<div>
+            <div>$115</div>
         </div>
     <section>
 </main>

@@ -32,7 +32,7 @@
         Here you can find all our contact information, details about our <a href="/services">services</a> and <a href="/policies">policies</a>, a complete breakdown of <a href="/services">pricing</a>, and <a href="/instagram">pictures of various haircuts and styles</a> so you know what to expect.
     </p>
 
-    // make this 2 or 3 columns? should remove some? takes up vertical space too much
+    <!--make this 2 or 3 columns? should remove some? takes up vertical space too much-->
     <section>
         <h2>Gallery</h2>
         <img src={IMG0479}>

@@ -84,7 +84,7 @@
        </p>
 
        <p>
-                In cases where there are matts in specific areas on the body we can usually dematt this as long as the animal tolerates dematting.  Just like people, individual animals have different levels of pain tolerance and even under the gentlest of groomers hands dematting can be painful and sometimes have side effects like skin irritations that may appear several hours after grooming when your pet has returned home and the groomer could not see them at the shop.
+          In cases where there are matts in specific areas on the body we can usually dematt this as long as the animal tolerates dematting.  Just like people, individual animals have different levels of pain tolerance and even under the gentlest of groomers hands dematting can be painful and sometimes have side effects like skin irritations that may appear several hours after grooming when your pet has returned home and the groomer could not see them at the shop.
        </p>
        <p>
             So, if your pet is making it clear that they cannot tolerate the dematting process we will not put your pet through undue stress just to achieve a specific "look".  We firmly believe in humanity over vanity.  When dematting cannot be tolerated then shaving is again the only humane option for the animal.

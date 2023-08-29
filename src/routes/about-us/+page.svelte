@@ -13,18 +13,14 @@
     <br/>
 
     <strong>Tiny (@tinylittleyorkie)</strong>
-    <img src={Fiona} alt="Tiny">
     <p>Alerting of new occurennces & very supportive in every way. The bread & butter of the operation.</p>
     <br/>
 
     <strong>Taco</strong>
-    <img src={Fiona} alt="Taco">
     <p>Very experienced, full of energy, go-getter! Loves attention.</p>
     <br/>
 
     <strong>Nino</strong>
-    <img src={Fiona} alt="Nino">
     <p>Love to socialize whether he is invited or not</p>
     <br/>
-
 </main>

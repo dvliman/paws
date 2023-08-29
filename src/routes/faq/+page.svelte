@@ -4,7 +4,7 @@
             How can I book an appointment?
        </summary>
        <p>
-            That is easy! Please call us at (840) 212-9605. Leave a text or send a Whatsapp message and we will get back to you
+            That is easy! Please call us at (949) 372-8480. Leave a text or send a Whatsapp message and we will get back to you
        </p>
     </details>
 
@@ -100,7 +100,7 @@
             How do I cancel my appointment?
        </summary>
        <p>
-            The easiest way to cancel your appointment is by texting (840) 212-9605
+            The easiest way to cancel your appointment is by texting (949) 372-8480
        </p>
     </details>
 

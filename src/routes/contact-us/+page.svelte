@@ -20,7 +20,7 @@
     <div>
         <img src={Phone} alt="Phone">
         <strong>Phone</strong>
-        <span>(840) 212-9605</span>
+        <span>(949) 372-8480</span>
     </div>
     <div>
         <img src={Social} alt="Social">

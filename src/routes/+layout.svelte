@@ -11,11 +11,11 @@
     •
     <span>16561 China Berry Ct, Chino Hills, CA</span>
     •
-    <span>(840) 212-9605</span>
-    <a href="tel:8402129605"><img src={Call} alt="Call (840) 212-9605"></a>
-    <a href="tel:8402129605"><img src={Whatsapp} alt="Whatsapp (840) 212-9605"></a>
-    <a href="tel:8402129605"><img src={Yelp} alt="Yelp Tiny Little Paws"></a>
-    <a href="tel:8402129605"><img src={Instagram} alt="Instagram Tiny Little Paws"></a>
+    <span>(949) 372-8480</span>
+    <a href="tel:9493728480"><img src={Call} alt="Call (949) 372-8480"></a>
+    <a href="tel:9493728480"><img src={Whatsapp} alt="Whatsapp (949) 372-8480"></a>
+    <a href="tel:9493728480"><img src={Yelp} alt="Yelp Tiny Little Paws"></a>
+    <a href="tel:9493728480"><img src={Instagram} alt="Instagram Tiny Little Paws"></a>
 </section>
 
 <nav>

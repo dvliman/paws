@@ -20,10 +20,11 @@
     import IMG0754 from '$lib/assets/pictures/IMG_0754.webp'
     import IMG0755 from '$lib/assets/pictures/IMG_0755.webp'
 </script>
+
 <main>
     <h1>Welcome to Tiny Little Paws website!</h1>
     <p>
-        Hi there! My name is Fiona. My husband and I run pet-grooming service out of our home in in Chino Hills, California.
+       Hi there! My name is Fiona. My husband and I run a pet grooming service out of our Chino Hills (California) home
     </p>
     <p>
         Finding a groomer can be tricky, so we want you to feel comfortable with us. That iss why we put together this website to give you a good idea of <a href="/about-us">who we are</a> and what we do.

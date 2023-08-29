@@ -4,7 +4,7 @@ dev:
 
 .PHONY: install
 install:
-	npm instal
+	npm install
 
 .PHONY: build
 build:

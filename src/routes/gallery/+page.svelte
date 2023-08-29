@@ -23,7 +23,7 @@
 
 <section>
     <h2>Gallery</h2>
-    <img src={IMG0479}>
+    <img src={IMG0479} alt="dog1">
     <img src={IMG0480}>
     <img src={IMG0526}>
     <img src={IMG0527}>

@@ -46,7 +46,7 @@ h3 {
 }
 
 h1 {
-	font-size: 3.5rem;
+	font-size: 4rem;
 	color: #ff8fab;
 }
 
@@ -54,4 +54,5 @@ section {
 	display: flex;
 	gap: 3rem;
 	padding: 4rem;
+	margin: 0;
 }

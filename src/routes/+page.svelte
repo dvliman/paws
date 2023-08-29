@@ -1,5 +1,6 @@
 <script>
 	import Services from './services/+page.svelte';
+	import Tiny from '$lib/assets/tiny.png';
 </script>
 
 <section>
@@ -20,7 +21,7 @@
 		</p>
 	</div>
 	<div>
-		<!-- image -->
+		<img src={Tiny} alt="little tiny" />
 	</div>
 </section>
 
@@ -33,13 +34,13 @@
 		margin-bottom: 1.5rem;
 	}
 	section {
+		align-items: center;
+		padding-bottom: 0;
 		& div:first-child {
 			width: 50%;
 		}
 		& div:last-child {
 			width: 50%;
-			height: 120px;
-			background: gray;
 		}
 	}
 </style>

@@ -77,7 +77,6 @@
 <style>
 	section {
 		gap: 2rem;
-		padding-bottom: 2rem;
 		flex-flow: column;
 		& .pricing-container {
 			display: flex;
@@ -92,9 +91,6 @@
 				gap: 2rem;
 				& ul {
 					flex: 1;
-					list-style: circle;
-					& li {
-					}
 				}
 			}
 		}

@@ -9,26 +9,28 @@
 </script>
 
 <section>
-	<div class="info">
-		<span>Open today from 9am - 5pm</span>
-		<span>•</span>
-		<span>16561 China Berry Ct, Chino Hills, CA</span>
-		<span>•</span>
-		<span>(949) 372-8480</span>
-	</div>
-	<div class="social">
-		<a href="tel:9493728480"
-			><Icon icon="akar-icons:phone" color="black" width="20" height="20" /></a
-		>
-		<a href="tel:9493728480"
-			><Icon icon="akar-icons:whatsapp-fill" color="black" width="20" height="20" /></a
-		>
-		<a href="tel:9493728480"
-			><Icon icon="akar-icons:circle" color="black" width="20" height="20" /></a
-		>
-		<a href="tel:9493728480"
-			><Icon icon="akar-icons:instagram-fill" color="black" width="20" height="20" /></a
-		>
+	<div class="container">
+		<div class="info">
+			<span>Open today from 9am - 5pm</span>
+			<span>•</span>
+			<span>16561 China Berry Ct, Chino Hills, CA</span>
+			<span>•</span>
+			<span>(949) 372-8480</span>
+		</div>
+		<div class="social">
+			<a href="tel:9493728480"
+				><Icon icon="akar-icons:phone" color="black" width="20" height="20" /></a
+			>
+			<a href="tel:9493728480"
+				><Icon icon="akar-icons:whatsapp-fill" color="black" width="20" height="20" /></a
+			>
+			<a href="tel:9493728480"
+				><Icon icon="akar-icons:circle" color="black" width="20" height="20" /></a
+			>
+			<a href="tel:9493728480"
+				><Icon icon="akar-icons:instagram-fill" color="black" width="20" height="20" /></a
+			>
+		</div>
 	</div>
 </section>
 
@@ -51,13 +53,20 @@
 
 <style>
 	section {
-		display: flex;
+		padding: 0;
 		width: 100%;
 		background: #ffe5ec;
-		padding: 0.75rem 2rem;
 		align-items: center;
 		justify-content: space-between;
 		margin: 0;
+		& .container {
+			max-width: 1280px;
+			display: flex;
+			justify-content: space-between;
+			width: 100%;
+			margin: 0 auto;
+			padding: 0.75rem 4rem;
+		}
 	}
 	.info {
 		display: flex;
@@ -96,5 +105,11 @@
 	main {
 		max-width: 1280px;
 		margin: 0 auto;
+	}
+
+	footer {
+		display: flex;
+		padding: 1rem 1.5rem;
+		justify-content: center;
 	}
 </style>

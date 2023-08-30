@@ -86,12 +86,12 @@
 		width: 100%;
 		padding: 1rem 2rem;
 		justify-content: center;
-		border-bottom: 1px solid #f2f2f2;
 		margin: 0;
 		position: sticky;
 		top: 0;
-		background: white;
-
+		background: rgba(255, 255, 255, 0.8);
+		box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+		backdrop-filter: blur(20px);
 		& a {
 			color: black;
 			text-decoration: none;

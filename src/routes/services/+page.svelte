@@ -4,24 +4,24 @@
 			<h2>Bath Only</h2>
 			<ul>
 				<li>
-					<div>Up to 20 lbs</div>
-					<div>$40</div>
+					<div><span>Up to 20 lbs</span><span>Tiny dogs</span></div>
+					<div class="price">$40</div>
 				</li>
 				<li>
-					<div>21 - 40 lbs</div>
-					<div>$50</div>
+					<div><span>21 - 40 lbs</span><span>Small dogs</span></div>
+					<div class="price">$50</div>
 				</li>
 				<li>
-					<div>41 - 60 lbs</div>
-					<div>$60</div>
+					<div><span>41 - 60 lbs</span><span>Medium dogs</span></div>
+					<div class="price">$60</div>
 				</li>
 				<li>
-					<div>61 - 80 lbs</div>
-					<div>$70</div>
+					<div><span>61 - 80 lbs</span><span>Large dogs</span></div>
+					<div class="price">$70</div>
 				</li>
 				<li>
-					<div>81 lbs & up lbs</div>
-					<div>$80</div>
+					<div><span>81 lbs & up</span><span>XLarge dogs</span></div>
+					<div class="price">$80</div>
 				</li>
 			</ul>
 		</div>
@@ -29,24 +29,24 @@
 			<h2>Bath + Haircut</h2>
 			<ul>
 				<li>
-					<div>Up to 20 lbs</div>
-					<div>$75</div>
+					<div><span>Up to 20 lbs</span><span>Tiny dogs</span></div>
+					<div class="price">$75</div>
 				</li>
 				<li>
-					<div>21 - 40 lbs</div>
-					<div>$85</div>
+					<div><span>21 - 40 lbs</span><span>Small dogs</span></div>
+					<div class="price">$85</div>
 				</li>
 				<li>
-					<div>41 - 60 lbs</div>
-					<div>$95</div>
+					<div><span>41 - 60 lbs</span><span>Medium dogs</span></div>
+					<div class="price">$95</div>
 				</li>
 				<li>
-					<div>61 - 80 lbs</div>
-					<div>$105</div>
+					<div><span>61 - 80 lbs</span><span>Large dogs</span></div>
+					<div class="price">$105</div>
 				</li>
 				<li>
-					<div>81 lbs & up lbs</div>
-					<div>$115</div>
+					<div><span>81 lbs & up</span><span>XLarge dogs</span></div>
+					<div class="price">$115</div>
 				</li>
 			</ul>
 		</div>
@@ -61,9 +61,9 @@
 				<li>
 					Bath, using the specialized shampoo and conditioner for your pets skin and coat condition.
 				</li>
+				<li>Anal glands expression (upon request)</li>
 			</ul>
 			<ul>
-				<li>Anal glands expression (upon request)</li>
 				<li>Fluff drying – for a better finish</li>
 				<li>Brush Out</li>
 				<li>Sanitary area clipped</li>
@@ -85,12 +85,20 @@
 		& .package-container {
 			padding: 2rem;
 			border-radius: 1rem;
-			border: 1px solid #ffe5ec;
+			border: 1px solid #000;
 			& div {
 				display: flex;
 				gap: 2rem;
 				& ul {
 					flex: 1;
+					& li {
+						border-bottom: 1px solid #cccccc;
+						padding-bottom: 0.5rem;
+						margin: 0.5rem 0;
+						&:last-child {
+							border: none;
+						}
+					}
 				}
 			}
 		}
@@ -100,6 +108,24 @@
 		background: #ffe5ec;
 		padding: 2rem;
 		border-radius: 1rem;
+		& li {
+			background: white;
+			padding: 1rem 1.5rem;
+			border-radius: 0.5rem;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05);
+			align-items: center;
+			& div:first-child {
+				display: flex;
+				flex-flow: column nowrap;
+				& span:last-child {
+					font-size: 0.875rem;
+					color: #999999;
+				}
+			}
+		}
+		& .price {
+			font-size: 2.5rem;
+		}
 	}
 	h2 {
 		margin-bottom: 1.5rem;

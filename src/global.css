@@ -43,6 +43,7 @@ h1,
 h2,
 h3 {
 	border: 0;
+	font-family: 'Caprasimo', cursive;
 }
 
 h1 {
@@ -52,7 +53,11 @@ h1 {
 
 section {
 	display: flex;
-	gap: 3rem;
+	gap: 2rem;
 	padding: 4rem;
 	margin: 0;
+}
+
+.stack-vertical {
+	flex-flow: column nowrap;
 }

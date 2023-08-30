@@ -14,8 +14,8 @@
     <div>
         <img src={Hours} alt="Hours">
         <strong>Hours</strong>
-        <span>Mon - Fri | 9:00 am - 5:30 pm</span>
-        <span>Sat | 9:00 am - 12:30 pm</span>
+        <span>Mon - Fri | 8:00 am - 6:00 pm</span><br/>
+        <span>Sat | 8:00 am - 12:00 pm</span><br/>
         <span>Sun | Closed </span>
     </div>
     <div>

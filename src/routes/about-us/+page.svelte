@@ -26,7 +26,7 @@
 			<img src={Tiny} alt="Tiny" />
 			<h3>Tiny</h3>
 			<p style="margin-bottom: .5rem">
-				Alerting of new occurennces & very supportive in every way. The bread & butter of the
+				Alerting of new occurences & very supportive in every way. The bread & butter of the
 				operation.
 			</p>
 			<a href="https://www.instagram.com/tinylittleyorkie/">@tinylittleyorkie</a>

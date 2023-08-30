@@ -4,15 +4,20 @@
 	import Icon from '@iconify/svelte';
 
 	let openOrClosed;
-	switch(new Date().getDay()) {
-		case 0: 
-			openOrClosed = "Sorry, we are closed today";
+	switch (new Date().getDay()) {
+		case 0:
+			openOrClosed = 'Sorry, we are closed today';
 			break;
 		case 6:
-			openOrClosed = "We are open half-day today from 8:00 a.m. to 12:00 p.m";
+			openOrClosed = 'We are open half-day today from 9:30 a.m. to 12:30 p.m';
 			break;
 		default:
-			openOrClosed = "We are open today from 8:00 a.m. to 6:00 p.m";
+			openOrClosed = 'We are open today from 9:30 a.m. to 5:30 p.m';
+	}
+
+	let show = false;
+	function toggle() {
+		show = !show;
 	}
 </script>
 
@@ -20,28 +25,50 @@
 	<div class="container">
 		<div class="info">
 			<span>{openOrClosed}</span>
-			<span>•</span>
-			<span><a href="https://goo.gl/maps/L3F6odaLxD8dv9jFA">16561 China Berry Ct, Chino Hills, CA</a></span>
-			<span>•</span>
-			<span><a href="tel:+19493728480">(949) 372-8480</a></span>
+			<span class="hide-in-mobile">•</span>
+			<span class="hide-in-mobile">
+				<a href="https://goo.gl/maps/L3F6odaLxD8dv9jFA">16561 China Berry Ct, Chino Hills, CA</a>
+			</span>
+			<span class="hide-in-mobile">•</span>
+			<span class="hide-in-mobile"><a href="tel:+19493728480">(949) 372-8480</a></span>
 		</div>
 		<div class="social">
-			<a href="tel:+19493728480"><Icon icon="akar-icons:phone" color="black" width="20" height="20" /></a>
-			<a href="https://wa.me/19493728480?text=Can%20I%20schedule%20an%20appointment%3F"><Icon icon="akar-icons:whatsapp-fill" color="black" width="20" height="20" /></a>
-			<a href="https://www.yelp.com/biz/tiny-little-paws-pet-grooming-chino-hills"><Icon icon="akar-icons:circle" color="black" width="20" height="20" /></a>
-			<a href="https://instagram.com/tinylittlepaws_grooming"><Icon icon="akar-icons:instagram-fill" color="black" width="20" height="20" /></a>
+			<a href="tel:+19493728480">
+				<Icon icon="akar-icons:phone" color="black" width="20" height="20" />
+			</a>
+			<a href="https://wa.me/19493728480?text=Can%20I%20schedule%20an%20appointment%3F">
+				<Icon icon="akar-icons:whatsapp-fill" color="black" width="20" height="20" />
+			</a>
+			<a href="https://www.yelp.com/biz/tiny-little-paws-pet-grooming-chino-hills">
+				<Icon icon="simple-icons:yelp" color="black" width="20" height="20" />
+			</a>
+			<a href="https://instagram.com/tinylittlepaws_grooming">
+				<Icon icon="akar-icons:instagram-fill" color="black" width="20" height="20" />
+			</a>
 		</div>
 	</div>
 </section>
 
 <nav>
-	<a href="/">Home</a>
-	<a href="/about-us">About Us</a>
-	<a href="/services">Services</a>
-	<a href="/policies">Policies</a>
-	<a href="/gallery">Gallery</a>
-	<a href="/faq">F.A.Q</a>
-	<a href="/contact-us">Contact Us</a>
+	<button on:click={toggle}><Icon icon="akar-icons:three-line-horizontal" />Menu</button>
+	<div class="menu-items-mobile" class:hide={!show}>
+		<a href="/" on:click={toggle}>Home</a>
+		<a href="/about-us" on:click={toggle}>About Us</a>
+		<a href="/services" on:click={toggle}>Services</a>
+		<a href="/policies" on:click={toggle}>Policies</a>
+		<a href="/gallery" on:click={toggle}>Gallery</a>
+		<a href="/faq" on:click={toggle}>F.A.Q</a>
+		<a href="/contact-us" on:click={toggle}>Contact Us</a>
+	</div>
+	<div class="menu-items-desktop">
+		<a href="/">Home</a>
+		<a href="/about-us">About Us</a>
+		<a href="/services">Services</a>
+		<a href="/policies">Policies</a>
+		<a href="/gallery">Gallery</a>
+		<a href="/faq">F.A.Q</a>
+		<a href="/contact-us">Contact Us</a>
+	</div>
 </nav>
 
 <Analytics />
@@ -62,20 +89,30 @@
 		& .container {
 			max-width: 1280px;
 			display: flex;
-			justify-content: space-between;
+			justify-content: center;
 			width: 100%;
 			margin: 0 auto;
-			padding: 0.75rem 4rem;
+			padding: 0.75rem 2rem;
+			@media (min-width: 798px) {
+				padding: 0.75rem 4rem;
+				justify-content: space-between;
+			}
 		}
 	}
 	.info {
 		display: flex;
 		gap: 0.5rem;
 		font-size: 0.875rem;
+		flex-flow: row;
 	}
 	.social {
 		display: flex;
 		gap: 1rem;
+		display: none;
+
+		@media (min-width: 798px) {
+			display: flex;
+		}
 		& a {
 			display: flex;
 		}
@@ -92,12 +129,57 @@
 		background: rgba(255, 255, 255, 0.8);
 		box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 		backdrop-filter: blur(20px);
-		& a {
-			color: black;
-			text-decoration: none;
-			margin: 0 1rem;
-			&:hover {
-				color: #fb6f92;
+		& .menu-items-mobile {
+			display: flex;
+			position: absolute;
+			flex-flow: column;
+			background: white;
+			width: 100%;
+			top: 56px;
+			box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+			padding: 1rem;
+			& a {
+				color: black;
+				text-decoration: none;
+				margin: 0.5rem 1rem;
+				font-weight: 300;
+				text-align: center;
+				font-size: 1.25rem;
+				&:hover {
+					color: #fb6f92;
+				}
+			}
+		}
+		& button {
+			background: none;
+			color: var(--nc-tx-2);
+			display: flex;
+			align-items: center;
+			gap: 0.5rem;
+			font-weight: 500;
+			& svg {
+				width: 20px;
+				height: 20px;
+			}
+			@media (min-width: 798px) {
+				display: none;
+			}
+		}
+		& .menu-items-desktop {
+			display: none;
+			@media (min-width: 798px) {
+				display: flex;
+			}
+			& a {
+				color: black;
+				text-decoration: none;
+				margin: 0rem 1rem;
+				font-weight: 300;
+				text-align: center;
+				font-size: 1rem;
+				&:hover {
+					color: #fb6f92;
+				}
 			}
 		}
 	}
@@ -111,5 +193,16 @@
 		display: flex;
 		padding: 1rem 1.5rem;
 		justify-content: center;
+	}
+
+	.hide-in-mobile {
+		display: none;
+		@media (min-width: 1024px) {
+			display: block;
+		}
+	}
+
+	.hide {
+		display: none !important;
 	}
 </style>

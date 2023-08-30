@@ -36,11 +36,15 @@
 	section {
 		align-items: center;
 		padding-bottom: 0;
-		& div:first-child {
-			width: 50%;
-		}
-		& div:last-child {
-			width: 50%;
+		& div {
+			flex: 1;
+			min-width: 320px;
+			&:last-child {
+				display: none;
+				@media (min-width: 798px) {
+					display: block;
+				}
+			}
 		}
 	}
 </style>

@@ -6,7 +6,7 @@
 		monospace;
 
 	/* Light theme */
-	--nc-tx-1: #000000;
+	--nc-tx-1: #ff5d8f;
 	--nc-tx-2: #1a1a1a;
 	--nc-bg-1: #ffffff;
 	--nc-bg-2: #f6f8fa;
@@ -28,6 +28,9 @@
 	--nc-d-lk-tx: #ffffff;
 	--nc-d-ac-1: #7928ca;
 	--nc-d-ac-tx: #ffffff;
+
+	--small-bp: 798px;
+	--large-bp: 1024px;
 }
 
 * {
@@ -43,21 +46,53 @@ h1,
 h2,
 h3 {
 	border: 0;
-	font-family: 'Caprasimo', cursive;
+	padding: 0;
 }
 
 h1 {
-	font-size: 4rem;
-	color: #ff8fab;
+	font-size: 3rem;
+	font-family: 'Caprasimo', cursive;
+	@media (min-width: 798px) {
+		font-size: 4rem;
+	}
+}
+h2 {
+	font-size: 2rem;
+	font-family: 'Caprasimo', cursive;
+}
+h3 {
+	border: 0;
+	font-size: 1.5rem;
+}
+
+h2,
+h3 {
+	color: var(--nc-tx-2);
+}
+
+p {
+	font-size: 1.125rem;
 }
 
 section {
 	display: flex;
 	gap: 2rem;
-	padding: 4rem;
+	padding: 2rem;
 	margin: 0;
+	flex-wrap: wrap;
+	@media (min-width: 798px) {
+		padding: 4rem;
+	}
 }
 
 .stack-vertical {
 	flex-flow: column nowrap;
+}
+
+a {
+	color: #ff5d8f;
+	font-weight: 500;
+	&:hover {
+		color: black;
+	}
 }

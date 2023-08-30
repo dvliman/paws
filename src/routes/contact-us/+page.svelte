@@ -1,32 +1,85 @@
-<script lang="ts">
-  import Location from '$lib/assets/location.png'
-  import Hours from '$lib/assets/hours.png'
-  import Phone from '$lib/assets/phone.png'
-  import Social from '$lib/assets/social.png'
+<script>
+	import Icon from '@iconify/svelte';
 </script>
 
-<main>
-    <div>
-        <img src={Location} alt="Location">
-        <strong>Location</strong>
-        <span>16561 China Berry Ct, Chino Hills, CA 91709</span>
-    </div>
-    <div>
-        <img src={Hours} alt="Hours">
-        <strong>Hours</strong>
-        <span>Mon - Fri | 8:00 am - 6:00 pm</span><br/>
-        <span>Sat | 8:00 am - 12:00 pm</span><br/>
-        <span>Sun | Closed </span>
-    </div>
-    <div>
-        <img src={Phone} alt="Phone">
-        <strong>Phone</strong>
-        <span>(949) 372-8480</span>
-    </div>
-    <div>
-        <img src={Social} alt="Social">
-        <strong>Social</strong>
-        <span>Instagram: @TinyLittlePaws</span>
-        <span>Yelp: @TinyLittlePaws</span>
-    </div>
-</main>
+<section>
+	<h1>Contact us</h1>
+	<div>
+		<Icon icon="akar-icons:location" />
+		<h3>Location</h3>
+		<p>16561 China Berry Ct, Chino Hills, CA 91709</p>
+	</div>
+	<div>
+		<Icon icon="akar-icons:clock" />
+		<h3>Hours</h3>
+		<ul>
+			<li>
+				<strong>Monday - Friday</strong>
+				<p>9:00 am - 5:30 pm</p>
+			</li>
+			<li>
+				<strong>Saturday</strong>
+				<p>9:00 am - 12:30 pm</p>
+			</li>
+			<li>
+				<strong>Sunday</strong>
+				<p>Closed</p>
+			</li>
+		</ul>
+	</div>
+	<div>
+		<Icon icon="akar-icons:phone" />
+		<h3>Phone</h3>
+		<p>(949) 372-8480</p>
+	</div>
+	<div>
+		<Icon icon="akar-icons:network" />
+		<h3>Social</h3>
+		<ul>
+			<li>
+				<strong>Instagram</strong>
+				<p>@TinyLittlePaws</p>
+			</li>
+			<li>
+				<strong>Yelp</strong>
+				<p>@TinyLittlePaws</p>
+			</li>
+		</ul>
+	</div>
+</section>
+
+<style>
+	h1 {
+		width: 100%;
+		text-align: center;
+	}
+	h3 {
+		margin-bottom: 1rem;
+	}
+	p {
+		font-size: 1.125rem;
+		margin: 0;
+	}
+	div {
+		flex: 1;
+		min-width: 260px;
+		padding: 1rem;
+		padding: 2rem;
+		border-radius: 1rem;
+		border: 1px solid #f2f2f2;
+		& svg {
+			width: 36px;
+			height: 36px;
+			margin-bottom: 1rem;
+		}
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		& li {
+			margin-bottom: 0.5rem;
+		}
+	}
+</style>

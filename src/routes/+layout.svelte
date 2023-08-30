@@ -123,21 +123,23 @@
 		width: 100%;
 		padding: 1rem 2rem;
 		justify-content: center;
+		align-items: center;
 		margin: 0;
 		position: sticky;
 		top: 0;
-		background: rgba(255, 255, 255, 0.8);
+		background: white;
 		box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-		backdrop-filter: blur(20px);
+		flex-direction: column;
 		& .menu-items-mobile {
 			display: flex;
-			position: absolute;
 			flex-flow: column;
-			background: white;
 			width: 100%;
-			top: 56px;
+			top: 64px;
+			position: absolute;
+			background: white;
 			box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-			padding: 1rem;
+			padding-bottom: 1.5rem;
+			border-radius: 0 0 1rem 1rem;
 			& a {
 				color: black;
 				text-decoration: none;

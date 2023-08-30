@@ -1,35 +1,35 @@
 <script>
 	import Analytics from '$lib/analytics.svelte';
-	import Instagram from '$lib/assets/instagram.png';
-	import Whatsapp from '$lib/assets/whatsapp.png';
-	import Yelp from '$lib/assets/yelp.png';
-	import Call from '$lib/assets/call.png';
 	import '../global.css';
 	import Icon from '@iconify/svelte';
+
+	let openOrClosed;
+	switch(new Date().getDay()) {
+		case 0: 
+			openOrClosed = "Sorry, we are closed today";
+			break;
+		case 6:
+			openOrClosed = "We are open half-day today from 9:30 a.m. to 12:30 p.m";
+			break;
+		default:
+			openOrClosed = "We are open today from 9:30 a.m. to 5:30 p.m";
+	}
 </script>
 
 <section>
 	<div class="container">
 		<div class="info">
-			<span>Open today from 9am - 5pm</span>
+			<span>{openOrClosed}</span>
 			<span>•</span>
-			<span>16561 China Berry Ct, Chino Hills, CA</span>
+			<span><a href="https://goo.gl/maps/L3F6odaLxD8dv9jFA">16561 China Berry Ct, Chino Hills, CA</a></span>
 			<span>•</span>
-			<span>(949) 372-8480</span>
+			<span><a href="tel:+19493728480">(949) 372-8480</a></span>
 		</div>
 		<div class="social">
-			<a href="tel:9493728480"
-				><Icon icon="akar-icons:phone" color="black" width="20" height="20" /></a
-			>
-			<a href="tel:9493728480"
-				><Icon icon="akar-icons:whatsapp-fill" color="black" width="20" height="20" /></a
-			>
-			<a href="tel:9493728480"
-				><Icon icon="akar-icons:circle" color="black" width="20" height="20" /></a
-			>
-			<a href="tel:9493728480"
-				><Icon icon="akar-icons:instagram-fill" color="black" width="20" height="20" /></a
-			>
+			<a href="tel:+19493728480"><Icon icon="akar-icons:phone" color="black" width="20" height="20" /></a>
+			<a href="https://wa.me/19493728480?text=Can%20I%20schedule%20an%20appointment%3F"><Icon icon="akar-icons:whatsapp-fill" color="black" width="20" height="20" /></a>
+			<a href="https://www.yelp.com/biz/tiny-little-paws-pet-grooming-chino-hills"><Icon icon="akar-icons:circle" color="black" width="20" height="20" /></a>
+			<a href="https://instagram.com/tinylittlepaws_grooming"><Icon icon="akar-icons:instagram-fill" color="black" width="20" height="20" /></a>
 		</div>
 	</div>
 </section>

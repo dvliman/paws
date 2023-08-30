@@ -14,8 +14,9 @@
     <div>
         <img src={Hours} alt="Hours">
         <strong>Hours</strong>
-        <span>Tue - Sun | 9:00 am - 5:30 pm</span>
-        <span>Mon | Closed </span>
+        <span>Mon - Fri | 9:00 am - 5:30 pm</span>
+        <span>Sat | 9:00 am - 12:30 pm</span>
+        <span>Sun | Closed </span>
     </div>
     <div>
         <img src={Phone} alt="Phone">

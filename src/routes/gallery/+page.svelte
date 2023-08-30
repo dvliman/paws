@@ -1,5 +1,4 @@
 <script>
-	import IMG0479 from '$lib/assets/pictures/IMG_0479.webp';
 	import IMG0480 from '$lib/assets/pictures/IMG_0480.webp';
 	import IMG0526 from '$lib/assets/pictures/IMG_0526.webp';
 	import IMG0527 from '$lib/assets/pictures/IMG_0527.webp';
@@ -23,7 +22,6 @@
 
 <section>
 	<h1>Gallery</h1>
-	<img src={IMG0479} alt="dog1" />
 	<img src={IMG0480} alt="dog2" />
 	<img src={IMG0526} alt="dog3" />
 	<img src={IMG0527} alt="dog4" />

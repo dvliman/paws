@@ -1,5 +1,8 @@
 <script>
 	import Fiona from '$lib/assets/about/fiona.jpeg';
+	import Tiny from '$lib/assets/about/tiny.jpeg';
+	import Taco from '$lib/assets/about/taco.jpeg';
+	import Nino from '$lib/assets/about/nino.jpeg';
 </script>
 
 <section class="intro">
@@ -20,21 +23,21 @@
 			<p>My name Fiona L and I am your groomer</p>
 		</div>
 		<div class="profile-card">
-			<img src={Fiona} alt="Fiona" />
+			<img src={Tiny} alt="Tiny" />
 			<h3>Tiny</h3>
 			<p style="margin-bottom: .5rem">
-				Alerting of new occurennces & very supportive in every way. The bread & butter of the
+				Alerting of new occurences & very supportive in every way. The bread & butter of the
 				operation.
 			</p>
 			<a href="https://www.instagram.com/tinylittleyorkie/">@tinylittleyorkie</a>
 		</div>
 		<div class="profile-card">
-			<img src={Fiona} alt="Fiona" />
+			<img src={Taco} alt="Tacco" />
 			<h3>Taco</h3>
 			<p>Very experienced, full of energy, go-getter! Loves attention.</p>
 		</div>
 		<div class="profile-card">
-			<img src={Fiona} alt="Fiona" />
+			<img src={Nino} alt="Nino" />
 			<h3>Nino</h3>
 			<p>Love to socialize whether he is invited or not</p>
 		</div>

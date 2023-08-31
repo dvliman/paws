@@ -15,12 +15,12 @@
 		type: 'website',
 		title: 'Tiny Little Paws Pet Grooming',
 		description: 'Pet Grooming Services in Chino Hills, CA',
-		locale: 'en-US',
-		siteName: 'tinylittlepaws.com',
+		locale: 'en_US',
+		siteName: 'Tiny Little Paws',
 		images: [
 			{
-				url: TinyOpenGraph,
-				secureUrl: TinyOpenGraph,
+				url: 'https://tinylittlepaws.com/_app/immutable/assets/tiny.8ce336eb.png',
+				secureUrl: 'https://tinylittlepaws.com/_app/immutable/assets/tiny.8ce336eb.png',
         alt: 'Tiny Little Paws Pet Grooming',
         type: 'image/png'
 			}
@@ -28,8 +28,11 @@
 	}}
 	twitter={{
 		cardType: 'summary',
-		image: Tiny,
+		image: 'https://tinylittlepaws.com/_app/immutable/assets/tiny.8ce336eb.png',
 		imageAlt: 'Tiny Little Paws Pet Grooming'
+	}}
+	facebook={{
+		appId: 61550608211853
 	}}
 />
 

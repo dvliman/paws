@@ -1,10 +1,37 @@
 <script>
 	import Services from './services/+page.svelte';
 	import Tiny from '$lib/assets/tiny.png';
-	import TinyOpenGraph from '$lib/assets/tiny-open-graph.png';
-	import { JsonLd } from 'svelte-meta-tags';
+	import { MetaTags, JsonLd } from 'svelte-meta-tags';
 </script>
 
+<MetaTags
+	title="Welcome"
+	titleTemplate="%s | Tiny Little Paws Pet Grooming"
+	description="Pet Grooming Services in Chino Hills, CA"
+	canonical="https://tinylittlepaws.com"
+	openGraph={{
+		url: 'https://tinylittlepaws.com/',
+		type: 'website',
+		title: 'Tiny Little Paws Pet Grooming',
+		description: 'Pet Grooming Services in Chino Hills, CA',
+		locale: 'en-US',
+		siteName: 'tinylittlepaws.com',
+		images: [
+			{
+				url: Tiny,
+				secureUrl: Tiny,
+				itemProp: 'image',
+        alt: 'Tiny Little Paws Pet Grooming',
+        type: 'image/png'
+			}
+		]
+	}}
+	twitter={{
+		cardType: 'summary',
+		image: Tiny,
+		imageAlt: 'Tiny Little Paws Pet Grooming'
+	}}
+/>
 <JsonLd
 	schema={[
 		{
@@ -46,7 +73,7 @@
 		</p>
 	</div>
 	<div>
-		<img src={Tiny} alt="little tiny" />
+		<img src={Tiny} alt="Tiny Little Paws Pet Grooming" />
 	</div>
 </section>
 

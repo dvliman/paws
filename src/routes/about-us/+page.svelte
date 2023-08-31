@@ -49,12 +49,12 @@
 		background: rgb(255, 71, 126);
 		background: linear-gradient(45deg, rgba(255, 71, 126, 1) 0%, rgba(255, 112, 150, 1) 100%);
 		border-radius: 0 0 2rem 2rem;
-		align-items: last baseline;
 		gap: 1rem;
 		flex-direction: column;
 		@media (min-width: 798px) {
 			flex-direction: row;
 			gap: 4rem;
+			align-items: last baseline;
 		}
 		& h1 {
 			flex: 1;

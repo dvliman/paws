@@ -36,12 +36,24 @@
 	section {
 		align-items: center;
 		padding-bottom: 0;
+		flex-direction: column;
+		@media (min-width: 798px) {
+			flex-direction: row;
+		}
 		& div {
 			flex: 1;
-			min-width: 320px;
 			&:last-child {
-				display: none;
+				background: #ffe5ec;
+				transform: scale(0.8);
+				border-radius: 50%;
+				aspect-ratio: 1 / 1;
+				order: -1;
 				@media (min-width: 798px) {
+					order: 1;
+				}
+				& img:last-child {
+					border-radius: 50%;
+					margin: 0;
 					display: block;
 				}
 			}

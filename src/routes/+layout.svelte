@@ -130,6 +130,8 @@
 		background: white;
 		box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 		flex-direction: column;
+		z-index: 99;
+
 		& .menu-items-mobile {
 			display: flex;
 			flex-flow: column;

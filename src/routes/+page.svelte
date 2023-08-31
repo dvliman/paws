@@ -1,6 +1,7 @@
 <script>
 	import Services from './services/+page.svelte';
 	import Tiny from '$lib/assets/tiny.png';
+	import TinyOpenGraph from '$lib/assets/tiny-open-graph.png';
 	import { MetaTags, JsonLd } from 'svelte-meta-tags';
 </script>
 
@@ -18,9 +19,8 @@
 		siteName: 'tinylittlepaws.com',
 		images: [
 			{
-				url: Tiny,
-				secureUrl: Tiny,
-				itemProp: 'image',
+				url: TinyOpenGraph,
+				secureUrl: TinyOpenGraph,
         alt: 'Tiny Little Paws Pet Grooming',
         type: 'image/png'
 			}

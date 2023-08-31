@@ -19,10 +19,12 @@
 		siteName: 'Tiny Little Paws',
 		images: [
 			{
-				url: 'https://tinylittlepaws.com/_app/immutable/assets/tiny.8ce336eb.png',
-				secureUrl: 'https://tinylittlepaws.com/_app/immutable/assets/tiny.8ce336eb.png',
+				url: TinyOpenGraph,
+				secureUrl: TinyOpenGraph,
         alt: 'Tiny Little Paws Pet Grooming',
-        type: 'image/png'
+        type: 'image/png',
+				width: 256,
+				height: 256
 			}
 		]
 	}}

@@ -1,11 +1,13 @@
 <script>
 	import Services from './services/+page.svelte';
 	import Tiny from '$lib/assets/tiny.png';
+	import TinyOpenGraph from '$lib/assets/tiny-open-graph.png';
 	import { MetaTags, JsonLd } from 'svelte-meta-tags';
+	console.log(TinyOpenGraph);
 </script>
 
 <MetaTags
-	title="Tiny Little Paws"
+	title="Welcome"
 	titleTemplate="%s | Tiny Little Paws Pet Grooming"
 	description="Pet Grooming Services in Chino Hills, CA"
 	canonical="https://tinylittlepaws.com"
@@ -17,12 +19,12 @@
 		description: 'Pet Grooming Services in Chino Hills, CA',
 		images: [
 			{
-				url: 'https://tinylittlepaws.com/_app/immutable/assets/tiny.8ce336eb.png',
+				url: TinyOpenGraph,
+				secureUrl: TinyOpenGraph,
         alt: 'Tiny Little Paws Pet Grooming',
         width: 800,
         height: 600,
-				secureUrl: 'https://tinylittlepaws.com/_app/immutable/assets/tiny.8ce336eb.png',
-        type: 'image/jpeg'
+        type: 'image/png'
 			}
 		]
 	}}
@@ -47,10 +49,7 @@
 			},
 			email: 'hello@tinylittlepaws.com',
 			telephone: '(714) 253-2851',
-			sameAs: [
-				'https://www.yelp.com/biz/tiny-little-paws-pet-grooming-chino-hills',
-				'https://www.instagram.com/tinylittleyorkie',
-			]
+			sameAs: 'https://www.yelp.com/biz/tiny-little-paws-pet-grooming-chino-hills'
 		}
 	]}
 />

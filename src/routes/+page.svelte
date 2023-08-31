@@ -1,8 +1,59 @@
 <script>
 	import Services from './services/+page.svelte';
 	import Tiny from '$lib/assets/tiny.png';
+	import { MetaTags, JsonLd } from 'svelte-meta-tags';
 </script>
 
+<MetaTags
+	title="Tiny Little Paws"
+	titleTemplate="%s | Tiny Little Paws Pet Grooming"
+	description="Pet Grooming Services in Chino Hills, CA"
+	canonical="https://tinylittlepaws.com"
+	openGraph={{
+		type: 'website',
+		url: 'https://tinylittlepaws.com/',
+		locale: 'en-US',
+		title: 'Tiny Little Paws Pet Grooming',
+		description: 'Pet Grooming Services in Chino Hills, CA',
+		images: [
+			{
+				url: 'https://tinylittlepaws.com/_app/immutable/assets/tiny.8ce336eb.png',
+        alt: 'Tiny Little Paws Pet Grooming',
+        width: 800,
+        height: 600,
+				secureUrl: 'https://tinylittlepaws.com/_app/immutable/assets/tiny.8ce336eb.png',
+        type: 'image/jpeg'
+			}
+		]
+	}}
+/>
+
+<JsonLd
+	schema={[
+		{
+			'@context': 'https://schema.org',
+			'@type': 'Organization',
+			'@id': 'https://tinylittlepaws.com/#organization',
+  		url: 'https://tinylittlepaws.com',
+			name: 'Tiny Little Paws Pet Grooming',
+			description: 'Pet Grooming Services in Chino Hills, CA 91709',
+			logo: 'https://tinylittlepaws.com/favicon.png',
+			address: {
+				'@type': 'PostalAddress',
+				addressLocality: 'San Bernandino',
+				addressRegion: 'CA',
+				postalCode: '91709',
+				streetAddress: '16561 China Berry Ct, Chino Hills, CA 91709'
+			},
+			email: 'hello@tinylittlepaws.com',
+			telephone: '(714) 253-2851',
+			sameAs: [
+				'https://www.yelp.com/biz/tiny-little-paws-pet-grooming-chino-hills',
+				'https://www.instagram.com/tinylittleyorkie',
+			]
+		}
+	]}
+/>
 <section>
 	<div>
 		<h1>Welcome to Tiny Little Paws!</h1>
@@ -17,7 +68,7 @@
 			<a href="/services">services</a>
 			and <a href="/policies">policies</a>, a complete breakdown of <a href="/services">pricing</a>,
 			and
-			<a href="/instagram">pictures of various haircuts and styles</a> so you know what to expect.
+			<a href="/gallery">pictures of various haircuts and styles</a> so you know what to expect.
 		</p>
 	</div>
 	<div>
@@ -25,7 +76,6 @@
 	</div>
 </section>
 
-<!--make this 2 or 3 columns? should remove some? takes up vertical space too much-->
 <Services />
 
 <style>

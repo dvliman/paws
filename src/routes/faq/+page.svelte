@@ -3,9 +3,7 @@
 	<details>
 		<summary> How can I book an appointment? </summary>
 		<p>
-			That is easy! Please call us at (714) 253 2851. Leave a text or send a Whatsapp message and we
-			will get back to you
-		</p>
+			That is easy! Please leave a text or Whatsapp message at (714) 253 2851	and we will get back to you</p>
 	</details>
 	<details>
 		<summary> What should I expect from a grooming appointment? </summary>

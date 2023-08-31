@@ -9,10 +9,10 @@
 			openOrClosed = 'Sorry, we are closed today';
 			break;
 		case 6:
-			openOrClosed = 'We are open half-day today from 9:30 a.m. to 12:30 p.m';
+			openOrClosed = 'We are open half-day today from 8:00 a.m. to 12:00 p.m';
 			break;
 		default:
-			openOrClosed = 'We are open today from 9:30 a.m. to 5:30 p.m';
+			openOrClosed = 'We are open today from 8:00 a.m. to 5:00 p.m';
 	}
 
 	let show = false;

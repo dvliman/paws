@@ -15,11 +15,11 @@
 		<ul>
 			<li>
 				<strong>Monday - Friday</strong>
-				<p>9:00 am - 5:30 pm</p>
+				<p>8:00 am - 5:00 pm</p>
 			</li>
 			<li>
 				<strong>Saturday</strong>
-				<p>9:00 am - 12:30 pm</p>
+				<p>8:00 am - 12:00 pm</p>
 			</li>
 			<li>
 				<strong>Sunday</strong>
@@ -38,11 +38,11 @@
 		<ul>
 			<li>
 				<strong>Instagram</strong>
-				<p>@TinyLittlePaws</p>
+				<p><a href="https://instagram.com/tinylittleyorkie">@TinyLittleYorkie</a></p>
 			</li>
 			<li>
 				<strong>Yelp</strong>
-				<p>@TinyLittlePaws</p>
+				<p><a href="https://www.yelp.com/biz/tiny-little-paws-pet-grooming-chino-hills">Tiny Little Paws Pet Grooming, Chino Hills</a></p>
 			</li>
 		</ul>
 	</div>

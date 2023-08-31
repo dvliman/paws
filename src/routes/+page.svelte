@@ -31,9 +31,6 @@
 		image: 'https://tinylittlepaws.com/_app/immutable/assets/tiny.8ce336eb.png',
 		imageAlt: 'Tiny Little Paws Pet Grooming'
 	}}
-	facebook={{
-		appId: 61550608211853
-	}}
 />
 
 <JsonLd

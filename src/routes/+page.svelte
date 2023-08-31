@@ -32,6 +32,7 @@
 		imageAlt: 'Tiny Little Paws Pet Grooming'
 	}}
 />
+
 <JsonLd
 	schema={[
 		{
@@ -55,6 +56,7 @@
 		}
 	]}
 />
+
 <section>
 	<div>
 		<h1>Welcome to Tiny Little Paws!</h1>

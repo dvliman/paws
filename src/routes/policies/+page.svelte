@@ -1,3 +1,9 @@
+<script>
+	import { MetaTags } from 'svelte-meta-tags';
+</script>
+	
+<MetaTags title="Policies" description="Please read our policies before booking an appointment" />
+
 <section>
 	<h1>Our policies</h1>
 	<div>

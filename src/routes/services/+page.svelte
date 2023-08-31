@@ -1,6 +1,9 @@
 <script>
 	import Icon from '@iconify/svelte';
+	import { MetaTags } from 'svelte-meta-tags';
 </script>
+
+<MetaTags title="Services" description="We offer bath only, bath and haircut, and some addons" />
 
 <section>
 	<h1>Our Services</h1>

@@ -3,7 +3,10 @@
 	import Tiny from '$lib/assets/about/tiny.jpeg';
 	import Taco from '$lib/assets/about/taco.jpeg';
 	import Nino from '$lib/assets/about/nino.jpeg';
+  import { MetaTags } from 'svelte-meta-tags';
 </script>
+
+<MetaTags title="About Us" description="Home based pet grooming service in Chino Hills, CA. Not mobile" />
 
 <section class="intro">
 	<h1>About us</h1>

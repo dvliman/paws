@@ -1,4 +1,5 @@
 <script>
+	import { MetaTags } from 'svelte-meta-tags';
 	import IMG0526 from '$lib/assets/pictures/IMG_0480.webp';
 	import IMG0527 from '$lib/assets/pictures/IMG_0526.webp';
 	import IMG0528 from '$lib/assets/pictures/IMG_0527.webp';
@@ -24,8 +25,11 @@
 	import IMG0760 from '$lib/assets/pictures/IMG_9783.webp';
 </script>
 
+<MetaTags title="Gallery" description="Pictures of various styles and haircuts" />
+
 <section>
 	<h1>Gallery</h1>
+	<p>Pictures of various styles and haircuts</p>
 	<img src={IMG0526} alt="dog3" />
 	<img src={IMG0527} alt="dog4" />
 	<img src={IMG0528} alt="dog5" />
@@ -53,6 +57,10 @@
 
 <style>
 	h1 {
+		width: 100%;
+		text-align: center;
+	}
+	p {
 		width: 100%;
 		text-align: center;
 	}

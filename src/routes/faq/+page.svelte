@@ -1,5 +1,11 @@
+<script>
+import { MetaTags } from 'svelte-meta-tags';
+</script>
+
+<MetaTags title="Frequently Asked Questions" description="Any question about our pet grooming services?" />
+
 <section>
-	<h1>FAQ</h1>
+	<h1>F.A.Q</h1>
 	<details>
 		<summary> How can I book an appointment? </summary>
 		<p>

@@ -1,6 +1,9 @@
 <script>
 	import Icon from '@iconify/svelte';
+	import { MetaTags } from 'svelte-meta-tags';
 </script>
+
+<MetaTags title="Contact Us" description="Leave a text message at (714) 253-2851" />
 
 <section>
 	<h1>Contact us</h1>

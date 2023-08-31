@@ -3,7 +3,7 @@
 	<details>
 		<summary> How can I book an appointment? </summary>
 		<p>
-			That is easy! Please call us at (949) 372-8480. Leave a text or send a Whatsapp message and we
+			That is easy! Please call us at (714) 253 2851. Leave a text or send a Whatsapp message and we
 			will get back to you
 		</p>
 	</details>
@@ -84,7 +84,7 @@
 	</details>
 	<details>
 		<summary> How do I cancel my appointment? </summary>
-		<p>The easiest way to cancel your appointment is by texting (949) 372-8480</p>
+		<p>The easiest way to cancel your appointment is by texting (714) 253 2851</p>
 	</details>
 	<details>
 		<summary> Do you do aggressive dogs? </summary>

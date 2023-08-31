@@ -30,13 +30,13 @@
 				<a href="https://goo.gl/maps/L3F6odaLxD8dv9jFA">16561 China Berry Ct, Chino Hills, CA</a>
 			</span>
 			<span class="hide-in-mobile">•</span>
-			<span class="hide-in-mobile"><a href="tel:+19493728480">(949) 372-8480</a></span>
+			<span class="hide-in-mobile"><a href="tel:+17142532851">(714) 253 2851</a></span>
 		</div>
 		<div class="social">
-			<a href="tel:+19493728480">
+			<a href="tel:+17142532851">
 				<Icon icon="akar-icons:phone" color="black" width="20" height="20" />
 			</a>
-			<a href="https://wa.me/19493728480?text=Can%20I%20schedule%20an%20appointment%3F">
+			<a href="https://wa.me/17142532851?text=Can%20I%20schedule%20an%20appointment%3F">
 				<Icon icon="akar-icons:whatsapp-fill" color="black" width="20" height="20" />
 			</a>
 			<a href="https://www.yelp.com/biz/tiny-little-paws-pet-grooming-chino-hills">

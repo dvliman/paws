@@ -10,7 +10,7 @@
 	<div>
 		<Icon icon="akar-icons:location" />
 		<h3>Location</h3>
-		<p>16561 China Berry Ct, Chino Hills, CA 91709</p>
+		<p>Cross street of Butterfield Ranch Rd and Pine Ave in Chino Hills, CA</p>
 	</div>
 	<div>
 		<Icon icon="akar-icons:clock" />

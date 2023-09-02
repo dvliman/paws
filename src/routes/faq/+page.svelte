@@ -31,7 +31,7 @@ import { MetaTags } from 'svelte-meta-tags';
 	<details>
 		<summary> What payment methods are accepted? </summary>
 		<p>
-			We currently accept Cash, checks, Zelle and Venmo transfers. Payment is due at the time of
+			We currently accept Cash, Zelle and Venmo transfers. Payment is due at the time of
 			service, no exceptions.
 		</p>
 	</details>

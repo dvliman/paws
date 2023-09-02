@@ -50,7 +50,7 @@
 				addressLocality: 'San Bernandino',
 				addressRegion: 'CA',
 				postalCode: '91709',
-				streetAddress: '16561 China Berry Ct, Chino Hills, CA 91709'
+				streetAddress: 'Cross s'
 			},
 			email: 'hello@tinylittlepaws.com',
 			telephone: '(714) 253-2851',

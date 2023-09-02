@@ -27,7 +27,7 @@
 			<span>{openOrClosed}</span>
 			<span class="hide-in-mobile">•</span>
 			<span class="hide-in-mobile">
-				<a href="https://goo.gl/maps/L3F6odaLxD8dv9jFA">16561 China Berry Ct, Chino Hills, CA</a>
+				Cross street of Butterfield Ranch Rd and Pine Ave in Chino Hills, CA
 			</span>
 			<span class="hide-in-mobile">•</span>
 			<span class="hide-in-mobile"><a href="tel:+17142532851">(714) 253 2851</a></span>

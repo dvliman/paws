@@ -30,7 +30,7 @@
 				Cross street of Butterfield Ranch Rd and Pine Ave in Chino Hills, CA
 			</span>
 			<span class="hide-in-mobile">•</span>
-			<span class="hide-in-mobile"><a href="tel:+17142532851">(714) 253 2851</a></span>
+			<span><a href="sms:+17142532851?&body=Can I schedule an appointment?">(714) 253 2851</a></span>
 		</div>
 		<div class="social">
 			<a href="tel:+17142532851">

@@ -7,21 +7,21 @@
 
 <MetaTags
 	title="Welcome"
-	titleTemplate="%s | Tiny Little Paws Pet Grooming"
-	description="Pet Grooming Services in Chino Hills, CA"
+	titleTemplate="%s | Tiny Little Paws Dog Grooming"
+	description="Dog Grooming Services in Chino Hills, CA"
 	canonical="https://tinylittlepaws.com"
 	openGraph={{
 		url: 'https://tinylittlepaws.com/',
 		type: 'website',
-		title: 'Tiny Little Paws Pet Grooming',
-		description: 'Pet Grooming Services in Chino Hills, CA',
+		title: 'Tiny Little Paws Dog Grooming',
+		description: 'Dog Grooming Services in Chino Hills, CA',
 		locale: 'en_US',
 		siteName: 'Tiny Little Paws',
 		images: [
 			{
 				url: TinyOpenGraph,
 				secureUrl: TinyOpenGraph,
-        alt: 'Tiny Little Paws Pet Grooming',
+        alt: 'Tiny Little Paws Dog Grooming',
         type: 'image/png',
 				width: 256,
 				height: 256
@@ -31,7 +31,7 @@
 	twitter={{
 		cardType: 'summary',
 		image: 'https://tinylittlepaws.com/_app/immutable/assets/tiny.8ce336eb.png',
-		imageAlt: 'Tiny Little Paws Pet Grooming'
+		imageAlt: 'Tiny Little Paws Dog Grooming'
 	}}
 />
 
@@ -42,8 +42,8 @@
 			'@type': 'Organization',
 			'@id': 'https://tinylittlepaws.com/#organization',
   		url: 'https://tinylittlepaws.com',
-			name: 'Tiny Little Paws Pet Grooming',
-			description: 'Pet Grooming Services in Chino Hills, CA 91709',
+			name: 'Tiny Little Paws Dog Grooming',
+			description: 'Dog Grooming Services in Chino Hills, CA 91709',
 			logo: 'https://tinylittlepaws.com/favicon.png',
 			address: {
 				'@type': 'PostalAddress',
@@ -63,7 +63,7 @@
 	<div>
 		<h1>Welcome to Tiny Little Paws!</h1>
 		<p>
-			Hi there! My name is Fiona. My husband and I run a pet grooming service out of our Chino Hills
+			Hi there! My name is Fiona. My husband and I run a dog grooming service out of our Chino Hills
 			(California) home. Finding a groomer can be tricky, so we want you to feel comfortable with
 			us.
 			<br /><br />
@@ -77,7 +77,7 @@
 		</p>
 	</div>
 	<div>
-		<img src={Tiny} alt="Tiny Little Paws Pet Grooming" />
+		<img src={Tiny} alt="Tiny Little Paws Dog Grooming" />
 	</div>
 </section>
 

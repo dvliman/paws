@@ -33,8 +33,16 @@
 	<div>
 		<Icon icon="akar-icons:phone" />
 		<h3>Phone</h3>
-		<p>(714) 253-2851 - Call & Text</p>
-		<p>(949) 372-8480 - Text only</p>
+		<ul>
+			<li>
+				<strong>(714) 253-2851</strong>
+				<p>Text and Call</p>
+			</li>
+			<li>
+				<strong>(949) 372-8480</strong>
+				<p>Text only</p>
+			</li>
+		</ul>
 	</div>
 	<div>
 		<Icon icon="akar-icons:network" />

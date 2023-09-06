@@ -26,12 +26,10 @@
 	</div>
 	<div>
 		<h3>Special Handling fee – $10+</h3>
-		<p>Pet(s) that bite, act aggressive, or require extra assistance to stand.</p>
+		<p>Pet(s) that bite, act aggressive, or require extra assistance to stand. Please inform us if your pet might require special handling, in particular if your pet has a
+			history of biting or is aggressive towards other dogs.
+		</p>
 	</div>
-	<blockquote>
-		Please inform us if your pet might require special handling, in particular if your pet has a
-		history of biting or is aggressive towards other dogs.
-	</blockquote>
 </section>
 
 <style>

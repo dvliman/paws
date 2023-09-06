@@ -8,8 +8,7 @@ import { MetaTags } from 'svelte-meta-tags';
 	<h1>F.A.Q</h1>
 	<details>
 		<summary> How can I book an appointment? </summary>
-		<p>
-			That is easy! Please leave a text or Whatsapp message at (714) 253 2851	and we will get back to you</p>
+		<p>That is easy! You can call/text (714) 253-2851 and (949) 372-8480 text only. We will get back to you as soon as possible</p>
 	</details>
 	<details>
 		<summary> What should I expect from a grooming appointment? </summary>

@@ -11,8 +11,7 @@
 <section class="intro">
 	<h1>About us</h1>
 	<p>
-		Tiny Little Paws is a home-based pet grooming service in Chino Hills, CA. I work Monday through
-		Saturday (half-day Saturday). I went to grooming school and got certified at American Dog
+		Tiny Little Paws is a home-based pet grooming service in Chino Hills, CA. I went to grooming school and got certified at American Dog
 		Grooming Academy in Temecula, California under the apprentice of Angela Clark.
 	</p>
 </section>

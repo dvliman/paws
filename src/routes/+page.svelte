@@ -54,7 +54,7 @@
 			},
 			email: 'hello@tinylittlepaws.com',
 			telephone: '(714) 253-2851',
-			sameAs: 'https://www.yelp.com/biz/tiny-little-paws-pet-grooming-chino-hills'
+			sameAs: 'https://www.yelp.com/biz/tiny-little-paws-dog-grooming-services-chino-hills'
 		}
 	]}
 />

@@ -40,12 +40,15 @@
 			<a href="https://wa.me/17142532851?text=Can%20I%20schedule%20an%20appointment%3F">
 				<Icon icon="akar-icons:whatsapp-fill" color="black" width="20" height="20" />
 			</a>
-			<a href="https://www.yelp.com/biz/tiny-little-paws-pet-grooming-chino-hills">
+			<a href="https://www.yelp.com/biz/tiny-little-paws-dog-grooming-services-chino-hills">
 				<Icon icon="simple-icons:yelp" color="black" width="20" height="20" />
 			</a>
 			<a href="https://instagram.com/tinylittleyorkie">
 				<Icon icon="akar-icons:instagram-fill" color="black" width="20" height="20" />
 			</a>
+			<a href="/booking">
+				<Icon icon="teenyicons:appointments-outline" color="black" width="20" height="20" />
+			</a>	
 		</div>
 	</div>
 </section>
@@ -60,6 +63,7 @@
 		<a href="/gallery" on:click={toggle}>Gallery</a>
 		<a href="/faq" on:click={toggle}>F.A.Q</a>
 		<a href="/contact-us" on:click={toggle}>Contact Us</a>
+		<a href="/booking" on:click={toggle}>Book Now</a>
 	</div>
 	<div class="menu-items-desktop">
 		<a href="/">Home</a>
@@ -69,6 +73,7 @@
 		<a href="/gallery">Gallery</a>
 		<a href="/faq">F.A.Q</a>
 		<a href="/contact-us">Contact Us</a>
+		<a href="/booking">Book Now</a>
 	</div>
 </nav>
 

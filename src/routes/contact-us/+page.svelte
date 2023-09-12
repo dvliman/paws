@@ -50,11 +50,11 @@
 		<ul>
 			<li>
 				<strong>Instagram</strong>
-				<p><a href="https://instagram.com/tinylittleyorkie">@TinyLittleYorkie</a></p>
+				<p><a href="https://instagram.com/tinylittlepawsla">@TinyLittlePawsLA</a></p>
 			</li>
 			<li>
 				<strong>Yelp</strong>
-				<p><a href="https://www.yelp.com/biz/tiny-little-paws-pet-grooming-chino-hills">Tiny Little Paws Pet Grooming, Chino Hills</a></p>
+				<p><a href="https://www.yelp.com/biz/tiny-little-paws-dog-grooming-services-chino-hills">Tiny Little Paws Dog Grooming Services, Chino Hills</a></p>
 			</li>
 		</ul>
 	</div>

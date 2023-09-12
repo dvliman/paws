@@ -43,7 +43,7 @@
 			<a href="https://www.yelp.com/biz/tiny-little-paws-dog-grooming-services-chino-hills">
 				<Icon icon="simple-icons:yelp" color="black" width="20" height="20" />
 			</a>
-			<a href="https://instagram.com/tinylittleyorkie">
+			<a href="https://instagram.com/tinylittlepawsla">
 				<Icon icon="akar-icons:instagram-fill" color="black" width="20" height="20" />
 			</a>
 			<a href="/booking">

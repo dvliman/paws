@@ -46,9 +46,6 @@
 			<a href="https://instagram.com/tinylittlepawsla">
 				<Icon icon="akar-icons:instagram-fill" color="black" width="20" height="20" />
 			</a>
-			<a href="/booking">
-				<Icon icon="teenyicons:appointments-outline" color="black" width="20" height="20" />
-			</a>	
 		</div>
 	</div>
 </section>
@@ -63,7 +60,7 @@
 		<a href="/gallery" on:click={toggle}>Gallery</a>
 		<a href="/faq" on:click={toggle}>F.A.Q</a>
 		<a href="/contact-us" on:click={toggle}>Contact Us</a>
-		<a href="/booking" on:click={toggle}>Book Now</a>
+		<a href="/booking" on:click={toggle}><strong>Book Now</strong></a>
 	</div>
 	<div class="menu-items-desktop">
 		<a href="/">Home</a>
@@ -73,7 +70,7 @@
 		<a href="/gallery">Gallery</a>
 		<a href="/faq">F.A.Q</a>
 		<a href="/contact-us">Contact Us</a>
-		<a href="/booking">Book Now</a>
+		<a href="/booking"><strong>Book Now</strong></a>
 	</div>
 </nav>
 

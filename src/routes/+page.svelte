@@ -1,6 +1,5 @@
 <script>
 	import Welcome from '$lib/components/Welcome.svelte';
-	import Contacts from '$lib/components/Contacts.svelte';
 	import Services from '$lib/components/Services.svelte';
 	import Discounts from '$lib/components/Discounts.svelte';
   import Testimonials from '$lib/components/Testimonials.svelte';
@@ -70,5 +69,4 @@
 <Services />
 <Discounts />
 <Testimonials />
-<Contacts />
 

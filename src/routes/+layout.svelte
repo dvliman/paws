@@ -100,7 +100,38 @@
 	<slot />
 </main>
 
-<footer>© 2023 Tiny Little Paws</footer>
+<footer>
+	<div>
+		<h2>Tiny Little Paws Dog Grooming</h2>
+		<address>
+			<p>Cross street of <strong>Butterfield Ranch Rd</strong> and <strong>Pine Ave</strong> in Chino Hills</p>
+			<p><a href="tel:+17142532851">David: (714) 253-2851</a></p>
+			<p><a href="sms:+19493728480?&body=Can I schedule an appointment?">Fiona: (949) 372-8480</a></p>
+		</address>
+	</div>
+	<div>
+		<ul>
+			<li><span>Mon</span><span>8:00 AM - 5:00 PM</span></li>
+			<li><span>Tue</span><span>Closed</span></li>
+			<li><span>Wed</span><span>Closed</span></li>
+			<li><span>Thu</span><span>Closed</span></li>
+			<li><span>Fri</span><span>Closed</span></li>
+			<li><span>Sat</span><span>8:00 AM - 5:00 PM</span></li>
+			<li><span>Sun</span><span>8:00 AM - 5:00 PM</span></li>
+		</ul>
+	</div>
+	<div>
+		<h2>Sitemap</h2>
+		<a href="/">Home</a>
+		<a href="/about-us">About Us</a>
+		<a href="/services">Services</a>
+		<a href="/policies">Policies</a>
+		<a href="/gallery">Gallery</a>
+		<a href="/faq">F.A.Q</a>
+		<a href="/contact-us">Contact Us</a>
+		<a href="/booking"><strong>Book Now</strong></a>
+	</div>
+</footer>
 
 <style>
 	section {
@@ -141,7 +172,6 @@
 			display: flex;
 		}
 	}
-
 	nav {
 		display: flex;
 		width: 100%;
@@ -211,25 +241,21 @@
 			}
 		}
 	}
-
 	main {
 		max-width: 1280px;
 		margin: 0 auto;
 	}
-
 	footer {
 		display: flex;
 		padding: 1rem 1.5rem;
 		justify-content: center;
 	}
-
 	.hide-in-mobile {
 		display: none;
 		@media (min-width: 1024px) {
 			display: block;
 		}
 	}
-
 	.hide {
 		display: none !important;
 	}

@@ -2,6 +2,29 @@
 	import Tiny from '$lib/assets/about/tiny.jpeg';
 	import Taco from '$lib/assets/about/taco.jpeg';
 	import Nino from '$lib/assets/about/nino.jpeg';
+
+	function getFormattedDate(date) {
+    let year = date.getFullYear();
+    let month = (1 + date.getMonth()).toString().padStart(2, '0');
+    let day = date.getDate().toString().padStart(2, '0');
+  
+    return month + '/' + day + '/' + year;
+	}
+
+	function beginningCurrentMonth() {
+		var today = new Date();
+		return getFormattedDate(new Date(today.getFullYear(), today.getMonth(), 1));
+	}	
+
+	function nextYearEndOfMonth() {
+		var today = new Date();
+		return getFormattedDate(new Date(today.getFullYear() + 1, today.getMonth()+1, 0));
+	}
+
+	function validCoupon() {
+		return `Valid from ${beginningCurrentMonth()} - ${nextYearEndOfMonth()}`;
+	}
+
 </script>
 
 <section>
@@ -11,7 +34,7 @@
 	<div class="discount">
 		<h2>New Customer Discount - $20 off!</h2>
 		<img src={Tiny} alt="New Customer Discount - $20 off"/>
-    <span>Valid from 04/01/2022 to 04/01/32</span>
+    <span>{validCoupon()}</span>
     <button>Print</button>
     <button>Share</button>
 	</div>
@@ -19,7 +42,7 @@
 	<div class="discount">
 		<h2>Refer a Friend or Neighbor</h2>
 		<img src={Taco} alt="Refer a Friend or Neighbor"/>
-    <span>Valid from 04/01/2022 to 04/01/32</span>
+    <span>{validCoupon()}</span>
     <button>Print</button>
     <button>Share</button>
 	</div>
@@ -27,7 +50,7 @@
 	<div class="discount">
 		<h2>Multiple Pet Discount</h2>
 		<img src={Nino} alt="Multiple Pet Discount"/>
-    <span>Valid from 04/01/2022 to 04/01/32</span>
+    <span>{validCoupon()}</span>
     <button>Print</button>
     <button>Share</button>
 	</div>

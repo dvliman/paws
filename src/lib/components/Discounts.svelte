@@ -34,6 +34,10 @@
 </section>
 
 <style>
+	h1, p {
+		width: 100%;
+		text-align: center;
+	}
   section {
 		& div {
 			flex: 1;

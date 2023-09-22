@@ -13,7 +13,20 @@
 	</div>
 </section>
 <style>
-	.review {
-		display: flex;
+	h1, p {
+		width: 100%;
+		text-align: center;
 	}
+
+	.review {
+		padding: 1rem;
+		border-radius: 1rem;
+		border: 2px solid #AAA;
+    & img {
+			width: 200px;
+			height: 200px;
+			object-fit: cover;
+			border-radius: 50%;
+		}
+  }
 </style>

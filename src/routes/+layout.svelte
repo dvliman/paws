@@ -110,6 +110,7 @@
     </address>
   </div>
   <div>
+     <h3>Business hours</h3>
     <ul>
       <li><span>Mon</span><span>8:00 AM - 5:00 PM</span></li>
       <li><span>Tue</span><span>Closed</span></li>
@@ -121,19 +122,36 @@
     </ul>
   </div>
   <div>
-    <h2>Sitemap</h2>
-    <a href="/">Home</a>
-    <a href="/about-us">About Us</a>
+    <h3>Sitemap</h3>
+    <ul>
+      <a href="/">Home</a>
+    </ul>
+     <ul>
+        <a href="/about-us">About Us</a>
+    </ul>
+     <ul>
     <a href="/services">Services</a>
-    <a href="/policies">Policies</a>
-    <a href="/gallery">Gallery</a>
-    <a href="/faq">F.A.Q</a>
-    <a href="/contact-us">Contact Us</a>
+    </ul>
+     <ul>
+      <a href="/policies">Policies</a>
+    </ul>
+     <ul>
+       <a href="/gallery">Gallery</a>
+    </ul>
+     <ul>
+       <a href="/faq">F.A.Q</a>
+    </ul>
+     <ul>
+ <a href="/contact-us">Contact Us</a>
+    </ul>
+       <ul>
     <a href="/booking"><strong>Book Now</strong></a>
+    </ul>
   </div>
 </footer>
 
 <style>
+
   section {
     padding: 0;
     width: 100%;
@@ -247,8 +265,9 @@
   }
   footer {
     display: flex;
-    padding: 1rem 1.5rem;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-content: center;
+    gap:10px 1px;
   }
   .hide-in-mobile {
     display: none;

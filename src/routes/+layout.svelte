@@ -1,39 +1,18 @@
-<!-- svelte-ignore a11y-missing-attribute -->
-<svelte:head>
-  <!-- Meta Pixel Code -->
-  <script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '826349535656951');
-  fbq('track', 'PageView');
-  </script>
-  <noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=826349535656951&ev=PageView&noscript=1"
-  /></noscript>
-  <!-- End Meta Pixel Code -->
-</svelte:head>
-
 <script>
-  import Analytics from '$lib/analytics.svelte';
-  import '../global.css';
-  import Icon from '@iconify/svelte';
+  import Analytics from "$lib/analytics.svelte";
+  import "../global.css";
+  import Icon from "@iconify/svelte";
 
   let openOrClosed;
   switch (new Date().getDay()) {
     case 0:
-      openOrClosed = 'Sorry, we are closed today';
+      openOrClosed = "Sorry, we are closed today";
       break;
     case 6:
-      openOrClosed = 'We are open half-day today from 8:00 a.m. to 12:00 p.m';
+      openOrClosed = "We are open half-day today from 8:00 a.m. to 12:00 p.m";
       break;
     default:
-      openOrClosed = 'We are open today from 8:00 a.m. to 5:00 p.m';
+      openOrClosed = "We are open today from 8:00 a.m. to 5:00 p.m";
   }
 
   let show = false;
@@ -41,6 +20,48 @@
     show = !show;
   }
 </script>
+
+<!-- svelte-ignore a11y-missing-attribute -->
+<svelte:head>
+  <!-- Meta Pixel Code -->
+  <!-- Meta Pixel Code -->
+  <script>
+    !(function (f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function () {
+        n.callMethod
+          ? n.callMethod.apply(n, arguments)
+          : n.queue.push(arguments);
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = "2.0";
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s);
+    })(
+      window,
+      document,
+      "script",
+      "https://connect.facebook.net/en_US/fbevents.js"
+    );
+    fbq("init", "826349535656951");
+    fbq("track", "PageView");
+  </script>
+  <noscript
+    ><img
+      height="1"
+      width="1"
+      style="display:none"
+      src="https://www.facebook.com/tr?id=826349535656951&ev=PageView&noscript=1"
+    /></noscript
+  >
+  <!-- End Meta Pixel Code -->
+</svelte:head>
 
 <section>
   <div class="container">
@@ -51,28 +72,51 @@
         Cross street of Butterfield Ranch Rd and Pine Ave in Chino Hills
       </span>
       <span class="hide-in-mobile">•</span>
-      <span><a href="sms:+17142532851?&body=Can I schedule an appointment?">(714) 253-2851</a>
-      or <a href="sms:+19493728480?&body=Can I schedule an appointment?">(949) 372-8480</a></span>
+      <span
+        ><a href="sms:+17142532851?&body=Can I schedule an appointment?"
+          >(714) 253-2851</a
+        >
+        or
+        <a href="sms:+19493728480?&body=Can I schedule an appointment?"
+          >(949) 372-8480</a
+        ></span
+      >
     </div>
     <div class="social">
       <a href="tel:+17142532851">
         <Icon icon="akar-icons:phone" color="black" width="20" height="20" />
       </a>
-      <a href="https://wa.me/17142532851?text=Can%20I%20schedule%20an%20appointment%3F">
-        <Icon icon="akar-icons:whatsapp-fill" color="black" width="20" height="20" />
+      <a
+        href="https://wa.me/17142532851?text=Can%20I%20schedule%20an%20appointment%3F"
+      >
+        <Icon
+          icon="akar-icons:whatsapp-fill"
+          color="black"
+          width="20"
+          height="20"
+        />
       </a>
-      <a href="https://www.yelp.com/biz/tiny-little-paws-dog-grooming-services-chino-hills">
+      <a
+        href="https://www.yelp.com/biz/tiny-little-paws-dog-grooming-services-chino-hills"
+      >
         <Icon icon="simple-icons:yelp" color="black" width="20" height="20" />
       </a>
       <a href="https://instagram.com/tinylittlepawsla">
-        <Icon icon="akar-icons:instagram-fill" color="black" width="20" height="20" />
+        <Icon
+          icon="akar-icons:instagram-fill"
+          color="black"
+          width="20"
+          height="20"
+        />
       </a>
     </div>
   </div>
 </section>
 
 <nav>
-  <button on:click={toggle}><Icon icon="akar-icons:three-line-horizontal" />Menu</button>
+  <button on:click={toggle}
+    ><Icon icon="akar-icons:three-line-horizontal" />Menu</button
+  >
   <div class="menu-items-mobile" class:hide={!show}>
     <a href="/" on:click={toggle}>Home</a>
     <a href="/about-us" on:click={toggle}>About Us</a>
@@ -104,13 +148,20 @@
   <div>
     <h2>Tiny Little Paws Dog Grooming</h2>
     <address>
-      <p>Cross street of <strong>Butterfield Ranch Rd</strong> and <strong>Pine Ave</strong> in Chino Hills</p>
+      <p>
+        Cross street of <strong>Butterfield Ranch Rd</strong> and
+        <strong>Pine Ave</strong> in Chino Hills
+      </p>
       <p><a href="tel:+17142532851">David: (714) 253-2851</a></p>
-      <p><a href="sms:+19493728480?&body=Can I schedule an appointment?">Fiona: (949) 372-8480</a></p>
+      <p>
+        <a href="sms:+19493728480?&body=Can I schedule an appointment?"
+          >Fiona: (949) 372-8480</a
+        >
+      </p>
     </address>
   </div>
   <div>
-     <h3>Business hours</h3>
+    <h3>Business hours</h3>
     <ul>
       <li><span>Mon</span><span>8:00 AM - 5:00 PM</span></li>
       <li><span>Tue</span><span>Closed</span></li>
@@ -126,32 +177,31 @@
     <ul>
       <a href="/">Home</a>
     </ul>
-     <ul>
-        <a href="/about-us">About Us</a>
+    <ul>
+      <a href="/about-us">About Us</a>
     </ul>
-     <ul>
-    <a href="/services">Services</a>
+    <ul>
+      <a href="/services">Services</a>
     </ul>
-     <ul>
+    <ul>
       <a href="/policies">Policies</a>
     </ul>
-     <ul>
-       <a href="/gallery">Gallery</a>
+    <ul>
+      <a href="/gallery">Gallery</a>
     </ul>
-     <ul>
-       <a href="/faq">F.A.Q</a>
+    <ul>
+      <a href="/faq">F.A.Q</a>
     </ul>
-     <ul>
- <a href="/contact-us">Contact Us</a>
+    <ul>
+      <a href="/contact-us">Contact Us</a>
     </ul>
-       <ul>
-    <a href="/booking"><strong>Book Now</strong></a>
+    <ul>
+      <a href="/booking"><strong>Book Now</strong></a>
     </ul>
   </div>
 </footer>
 
 <style>
-
   section {
     padding: 0;
     width: 100%;
@@ -264,10 +314,12 @@
     margin: 0 auto;
   }
   footer {
+    max-width: 1280px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
     align-content: center;
-    gap:10px 1px;
+    gap: 10px 1px;
   }
   .hide-in-mobile {
     display: none;
@@ -279,6 +331,3 @@
     display: none !important;
   }
 </style>
-
-
-

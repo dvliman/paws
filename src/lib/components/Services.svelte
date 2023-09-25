@@ -1,12 +1,14 @@
 <script>
-  import Icon from '@iconify/svelte';
+  import Icon from "@iconify/svelte";
 </script>
 
 <section>
   <h1>Our Services</h1>
   <div class="pricing">
     <h2>Bath Only</h2>
-    <a href="https://calendly.com/tinylittlepaws/bath-only">Book your appointment now!</a>
+    <a href="https://calendly.com/tinylittlepaws/bath-only"
+      >Book your appointment now!</a
+    >
     <ul>
       <li>
         <div><span>Up to 20 lbs</span><span>Tiny dogs</span></div>
@@ -32,7 +34,9 @@
   </div>
   <div class="pricing">
     <h2>Bath + Haircut</h2>
-    <a href="https://calendly.com/tinylittlepaws/bath-haircut">Book your appointment now!</a>
+    <a href="https://calendly.com/tinylittlepaws/bath-haircut"
+      >Book your appointment now!</a
+    >
     <ul>
       <li>
         <div><span>Up to 20 lbs</span><span>Tiny dogs</span></div>
@@ -64,15 +68,16 @@
           <Icon icon="akar-icons:circle-check" /> Ears cleaned
         </li>
         <li>
-          <Icon icon="akar-icons:circle-check" /> Hair inside the ear, outside of the canal plucked,
-          if necessary.
+          <Icon icon="akar-icons:circle-check" /> Hair inside the ear, outside of
+          the canal plucked, if necessary.
         </li>
         <li>
           <Icon icon="akar-icons:circle-check" /> Nails trimmed
         </li>
         <li>
           <Icon icon="akar-icons:circle-check" />
-          Bath, using the specialized shampoo and conditioner for your pets skin and coat condition.
+          Bath, using the specialized shampoo and conditioner for your pets skin
+          and coat condition.
         </li>
         <li>
           <Icon icon="akar-icons:circle-check" /> Anal glands expression (upon request)
@@ -87,10 +92,12 @@
           <Icon icon="akar-icons:circle-check" /> Sanitary area clipped
         </li>
         <li>
-          <Icon icon="akar-icons:circle-check" /> Pads of feed clipped, cleaned and trimmed
+          <Icon icon="akar-icons:circle-check" /> Pads of feed clipped, cleaned and
+          trimmed
         </li>
         <li>
-          <Icon icon="akar-icons:circle-check" /> Haircut with hand scissor finish, on every dog
+          <Icon icon="akar-icons:circle-check" /> Haircut with hand scissor finish,
+          on every dog
         </li>
       </ul>
     </div>

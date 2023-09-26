@@ -25,6 +25,7 @@
 <svelte:head>
   <!-- Meta Pixel Code -->
   <!-- Meta Pixel Code -->
+  <!-- Meta Pixel Code -->
   <script>
     !(function (f, b, e, v, n, t, s) {
       if (f.fbq) return;
@@ -146,62 +147,64 @@
 
 <footer>
   <div>
-    <h2>Tiny Little Paws Dog Grooming</h2>
+    <h2>Tiny Little Paws</h2>
+    <h2>Dog Grooming</h2>
     <address>
       <p>
-        Cross street of <strong>Butterfield Ranch Rd</strong> and
+        Cross street of <strong>Butterfield Ranch Rd</strong><br />and
         <strong>Pine Ave</strong> in Chino Hills
       </p>
-      <p><a href="tel:+17142532851">David: (714) 253-2851</a></p>
+      <p>David: <a href="tel:+17142532851">(714) 253-2851</a></p>
       <p>
-        <a href="sms:+19493728480?&body=Can I schedule an appointment?"
-          >Fiona: (949) 372-8480</a
+        Fiona: <a href="sms:+19493728480?&body=Can I schedule an appointment?"
+          >(949) 372-8480</a
         >
       </p>
     </address>
   </div>
   <div>
     <div>
-    <h3>Business hours</h3>
+      <h3>Business hours</h3>
       <div>
-          <table>
-              <tr>
-                  <td>Mon</td>
-                  <td>10:00</td>
-                  <td>-</td>
-                  <td>10:00</td>
-              </tr>
-              <tr>
-                  <td>Tue</td>
-                  <td>Closed</td>
-              </tr>
-              <tr>
-                  <td>Wed</td>
-                  <td>Closed</td>
-              </tr>
-              <tr>
-                  <td>Thu</td>
-                  <td>Closed</td>
-              </tr>
-              <tr>
-                  <td>Fri</td>
-                  <td>Closed</td>
-              </tr>
-              <tr>
-                  <td>Sat</td>
-                  <td>10:00</td>
-                  <td>-</td>
-                  <td>10:00</td>
-              </tr>
-              <tr>
-                  <td>Sun</td>
-                  <td>10:00</td>
-                  <td>-</td>
-                  <td>10:00</td>
-          </table>
+        <table>
+          <tr>
+            <td>Mon</td>
+            <td>10:00</td>
+            <td>-</td>
+            <td>10:00</td>
+          </tr>
+          <tr>
+            <td>Tue</td>
+            <td>Closed</td>
+          </tr>
+          <tr>
+            <td>Wed</td>
+            <td>Closed</td>
+          </tr>
+          <tr>
+            <td>Thu</td>
+            <td>Closed</td>
+          </tr>
+          <tr>
+            <td>Fri</td>
+            <td>Closed</td>
+          </tr>
+          <tr>
+            <td>Sat</td>
+            <td>10:00</td>
+            <td>-</td>
+            <td>10:00</td>
+          </tr>
+          <tr>
+            <td>Sun</td>
+            <td>10:00</td>
+            <td>-</td>
+            <td>10:00</td>
+          </tr>
+        </table>
+      </div>
     </div>
   </div>
-</div>
   <div>
     <h3>Sitemap</h3>
     <ul>
@@ -351,11 +354,12 @@
     align-content: center;
     gap: 10px 1px;
   }
-table {
+  table {
     border-collapse: collapse;
   }
-  table, td {
-    border: none; 
+  table,
+  td {
+    border: none;
   }
   tr:nth-child(odd) {
     background-color: transparent;

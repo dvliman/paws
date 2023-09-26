@@ -115,9 +115,12 @@
 </section>
 
 <nav>
+  <div>
+    
+  </div>
   <button on:click={toggle}
-    ><Icon icon="akar-icons:three-line-horizontal" />Menu</button
-  >
+    ><Icon icon="akar-icons:three-line-horizontal" />Menu</button>
+
   <div class="menu-items-mobile" class:hide={!show}>
     <a href="/" on:click={toggle}>Home</a>
     <a href="/about-us" on:click={toggle}>About Us</a>
@@ -310,10 +313,12 @@
       }
     }
     & button {
+      left: 50%;
+      margin-left: -300px;
       background: none;
       color: var(--nc-tx-2);
       display: flex;
-      align-items: center;
+      align-items: left;
       gap: 0.5rem;
       font-weight: 500;
       & svg {
@@ -354,6 +359,14 @@
     align-content: center;
     gap: 10px 1px;
   }
+
+  @media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
   table {
     border-collapse: collapse;
   }

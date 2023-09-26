@@ -1,5 +1,5 @@
 <script>
-	import Icon from '@iconify/svelte';
+	import Icon from "@iconify/svelte";
 </script>
 
 <section>
@@ -59,36 +59,32 @@
 		<div>
 			<ul>
 				<li>
-					<Icon icon="akar-icons:circle-check" /> Ears cleaned
+					<Icon icon="akar-icons:circle-check" />Ears cleaning
 				</li>
 				<li>
-					<Icon icon="akar-icons:circle-check" /> Hair inside the ear, outside of the canal plucked,
-					if necessary.
+					<Icon icon="akar-icons:circle-check" />Ear hair removal
 				</li>
 				<li>
-					<Icon icon="akar-icons:circle-check" /> Nails trimmed
+					<Icon icon="akar-icons:circle-check" />Nail trimming
 				</li>
 				<li>
 					<Icon icon="akar-icons:circle-check" />
-					Bath, using the specialized shampoo and conditioner for your pets skin and coat condition.
+					Bath using high-quality specialized shampoo
 				</li>
 				<li>
-					<Icon icon="akar-icons:circle-check" /> Anal glands expression (upon request)
+					<Icon icon="akar-icons:circle-check" />Anal glands expression
 				</li>
 				<li>
-					<Icon icon="akar-icons:circle-check" /> Fluff drying – for a better finish
-				</li>
-				<li>
-					<Icon icon="akar-icons:circle-check" /> Brush Out
+					<Icon icon="akar-icons:circle-check" />Fluff drying & brush out
 				</li>
 				<li>
 					<Icon icon="akar-icons:circle-check" /> Sanitary area clipped
 				</li>
 				<li>
-					<Icon icon="akar-icons:circle-check" /> Pads of feed clipped, cleaned and trimmed
+					<Icon icon="akar-icons:circle-check" />Paws pad trimming
 				</li>
 				<li>
-					<Icon icon="akar-icons:circle-check" /> Haircut with hand scissor finish, on every dog
+					<Icon icon="akar-icons:cross" />Price does not include de-matting ($10 / 15 mins)
 				</li>
 			</ul>
 		</div>

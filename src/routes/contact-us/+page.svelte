@@ -17,11 +17,27 @@
 		<h3>Hours</h3>
 		<ul>
 			<li>
-				<strong>Monday - Friday</strong>
+				<strong>Monday</strong>
 				<p>8:00 am - 5:00 pm</p>
 			</li>
 			<li>
-				<strong>Saturday</strong>
+				<strong>Tuesday</strong>
+				<p>8:00 am - 5:00 pm</p>
+			</li>
+			<li>
+				<strong>Wednesday</strong>
+				<p>8:00 am - 5:00 pm</p>
+			</li>
+			<li>
+				<strong>Thursday</strong>
+				<p>8:00 am - 5:00 pm</p>
+			</li>
+			<li>
+				<strong>Friday</strong>
+				<p>8:00 am - 5:00 pm</p>
+			</li>
+			<li>
+				<strong>Saurday</strong>
 				<p>8:00 am - 12:00 pm</p>
 			</li>
 			<li>

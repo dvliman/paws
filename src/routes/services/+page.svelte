@@ -89,7 +89,7 @@
 			</ul>
 		</div>
 	</div>
-	<div class="package-container">
+	<div>
 		<h2>Add-on (à la carte) Services</h2>
 		<ul>
 			<li class="options">

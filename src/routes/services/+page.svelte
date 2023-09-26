@@ -46,11 +46,11 @@
 			</li>
 			<li>
 				<div><span>61 - 80 lbs</span><span>Large dogs</span></div>
-				<div class="price">$95</div>
+				<div class="price">$115</div>
 			</li>
 			<li>
 				<div><span>81 lbs & up</span><span>XLarge dogs</span></div>
-				<div class="price">$105</div>
+				<div class="price">$145</div>
 			</li>
 		</ul>
 	</div>

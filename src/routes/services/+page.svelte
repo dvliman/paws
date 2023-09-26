@@ -84,10 +84,67 @@
 					<Icon icon="akar-icons:circle-check" />Paws pad trimming
 				</li>
 				<li>
-					<Icon icon="akar-icons:cross" />Price does not include de-matting ($10 / 15 mins)
+					<Icon icon="akar-icons:cross" />Price does not include de-matting
 				</li>
 			</ul>
 		</div>
+	</div>
+	<div class="package-container">
+		<h2>Add-on (à la carte) Services</h2>
+		<ul>
+			<li class="options">
+				<div>Dog Nail Trimming (1 - 40 lbs)</div>
+				<div class="price">$15</div>
+			</li>
+			<li class="options">
+				<div><span>Dog Nail Trimming (40 lbs & up)</span></div>
+				<div class="price">$20</div>
+			</li>
+			<li class="options">
+				<div><span>Ear cleaning</span></div>
+				<div class="price">$10</div>
+			</li>
+			<li class="options">
+				<div><span>Anal Gland Expression</span></div>
+				<div class="price">$10</div>
+			</li>
+			<li class="options">
+				<div><span>Teeth brushing</span></div>
+				<div class="price">$5</div>
+			</li>
+			<li class="options">
+				<div><span>Flea & Tick bath</span></div>
+				<div class="price">$10</div>
+			</li>
+			<li class="options">
+				<div><span>Face trim</span></div>
+				<div class="price">$10</div>
+			</li>
+			<li class="options">
+				<div><span>Butt trim</span></div>
+				<div class="price">$10</div>
+			</li>
+			<li class="options">
+				<div><span>Paws trim</span></div>
+				<div class="price">$5</div>
+			</li>
+			<li class="options">
+				<div><span>Sanitary trim</span></div>
+				<div class="price">$5</div>
+			</li>
+			<li class="options">
+				<div><span>Brush & De-matting</span></div>
+				<div class="price">$10 / 15 mins</div>
+			</li>
+			<li class="options">
+				<div><span>De-shedding</span></div>
+				<div class="price">$10 / 15 mins</div>
+			</li>
+			<li class="options">
+				<div><span>De-greasy</span></div>
+				<div class="price">$15</div>
+			</li>
+		</ul>
 	</div>
 </section>
 
@@ -160,6 +217,11 @@
 				font-size: 2.5rem;
 			}
 		}
+	}
+	.options {
+		display: flex; 
+		flex-flow: row; 
+		justify-content: space-between;
 	}
 	h2 {
 		margin-bottom: 1.5rem;

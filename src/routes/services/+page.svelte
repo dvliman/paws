@@ -93,11 +93,11 @@
 		<h2>Add-on (à la carte) Services</h2>
 		<ul>
 			<li class="options">
-				<div>Dog Nail Trimming (1 - 40 lbs)</div>
+				<div>Nail Trimming (1 - 40 lbs)</div>
 				<div class="price">$15</div>
 			</li>
 			<li class="options">
-				<div><span>Dog Nail Trimming (40 lbs & up)</span></div>
+				<div><span>Nail Trimming (40 lbs & up)</span></div>
 				<div class="price">$20</div>
 			</li>
 			<li class="options">

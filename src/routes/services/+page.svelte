@@ -8,23 +8,23 @@
 		<h2>Bath Only</h2>
 		<ul>
 			<li>
-				<div><span>Up to 20 lbs</span><span>Tiny dogs</span></div>
+				<div><span>1 - 15 lbs</span><span>Tiny dogs</span></div>
 				<div class="price">$35</div>
 			</li>
 			<li>
-				<div><span>21 - 40 lbs</span><span>Small dogs</span></div>
+				<div><span>16 - 35 lbs</span><span>Small dogs</span></div>
 				<div class="price">$45</div>
 			</li>
 			<li>
-				<div><span>41 - 60 lbs</span><span>Medium dogs</span></div>
+				<div><span>36 - 50 lbs</span><span>Medium dogs</span></div>
 				<div class="price">$60</div>
 			</li>
 			<li>
-				<div><span>61 - 80 lbs</span><span>Large dogs</span></div>
+				<div><span>51 - 75 lbs</span><span>Large dogs</span></div>
 				<div class="price">$70</div>
 			</li>
 			<li>
-				<div><span>81 lbs & up</span><span>XLarge dogs</span></div>
+				<div><span>76 lbs 81 lbs & up up</span><span>XLarge dogs</span></div>
 				<div class="price">$75</div>
 			</li>
 		</ul>
@@ -33,23 +33,23 @@
 		<h2>Bath + Haircut</h2>
 		<ul>
 			<li>
-				<div><span>Up to 20 lbs</span><span>Tiny dogs</span></div>
+				<div><span>1 - 15 lbs</span><span>Tiny dogs</span></div>
 				<div class="price">$55</div>
 			</li>
 			<li>
-				<div><span>21 - 40 lbs</span><span>Small dogs</span></div>
+				<div><span>16 - 35 lbs</span><span>Small dogs</span></div>
 				<div class="price">$65</div>
 			</li>
 			<li>
-				<div><span>41 - 60 lbs</span><span>Medium dogs</span></div>
+				<div><span>36 - 50 lbs</span><span>Medium dogs</span></div>
 				<div class="price">$85</div>
 			</li>
 			<li>
-				<div><span>61 - 80 lbs</span><span>Large dogs</span></div>
+				<div><span>51 - 75 lbs</span><span>Large dogs</span></div>
 				<div class="price">$115</div>
 			</li>
 			<li>
-				<div><span>81 lbs & up</span><span>XLarge dogs</span></div>
+				<div><span>76 lbs 81 lbs & up up</span><span>XLarge dogs</span></div>
 				<div class="price">$145</div>
 			</li>
 		</ul>

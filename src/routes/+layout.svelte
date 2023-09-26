@@ -161,17 +161,47 @@
     </address>
   </div>
   <div>
+    <div>
     <h3>Business hours</h3>
-    <ul>
-      <li><span>Mon</span><span>8:00 AM - 5:00 PM</span></li>
-      <li><span>Tue</span><span>Closed</span></li>
-      <li><span>Wed</span><span>Closed</span></li>
-      <li><span>Thu</span><span>Closed</span></li>
-      <li><span>Fri</span><span>Closed</span></li>
-      <li><span>Sat</span><span>8:00 AM - 5:00 PM</span></li>
-      <li><span>Sun</span><span>8:00 AM - 5:00 PM</span></li>
-    </ul>
+      <div>
+          <table>
+              <tr>
+                  <td>Mon</td>
+                  <td>10:00</td>
+                  <td>-</td>
+                  <td>10:00</td>
+              </tr>
+              <tr>
+                  <td>Tue</td>
+                  <td>Closed</td>
+              </tr>
+              <tr>
+                  <td>Wed</td>
+                  <td>Closed</td>
+              </tr>
+              <tr>
+                  <td>Thu</td>
+                  <td>Closed</td>
+              </tr>
+              <tr>
+                  <td>Fri</td>
+                  <td>Closed</td>
+              </tr>
+              <tr>
+                  <td>Sat</td>
+                  <td>10:00</td>
+                  <td>-</td>
+                  <td>10:00</td>
+              </tr>
+              <tr>
+                  <td>Sun</td>
+                  <td>10:00</td>
+                  <td>-</td>
+                  <td>10:00</td>
+          </table>
+    </div>
   </div>
+</div>
   <div>
     <h3>Sitemap</h3>
     <ul>
@@ -320,6 +350,29 @@
     justify-content: space-evenly;
     align-content: center;
     gap: 10px 1px;
+  }
+table {
+    border-collapse: collapse;
+  }
+  table, td {
+    border: none; 
+  }
+  tr:nth-child(odd) {
+    background-color: transparent;
+  }
+  tr:nth-child(even) {
+    background-color: transparent;
+  }
+  div ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 12px;
+  }
+
+  div ul a {
+    text-decoration: none;
+    display: inline-block;
   }
   .hide-in-mobile {
     display: none;

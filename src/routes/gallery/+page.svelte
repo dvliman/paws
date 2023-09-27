@@ -64,4 +64,7 @@
     width: 100%;
     text-align: center;
   }
+  img {
+    width: 260px;
+  }
 </style>

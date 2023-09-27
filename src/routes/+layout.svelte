@@ -299,8 +299,6 @@
       }
     }
     & button {
-      left: 50%;
-      margin-left: -300px;
       background: none;
       color: var(--nc-tx-2);
       display: flex;

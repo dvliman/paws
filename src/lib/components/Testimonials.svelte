@@ -7,17 +7,22 @@
 
   <div class="container">
     <img
-      src="https://s3-media0.fl.yelpcdn.com/photo/ML1sIjy-sJi0r7ua3Um9Sw/ls.jpg"
-      alt="Avatar"
-      style="width:50px"
-    />
-    <p>Kimmy M.</p>
-    <p>
+src="https://s3-media0.fl.yelpcdn.com/photo/ML1sIjy-sJi0r7ua3Um9Sw/ls.jpg"
+alt="Avatar"
+style="width:50px"
+/>
+<p class="name">Kimmy M.</p>
+    <div class="review">
       I highly recommend this place. First time bringing my dog here for
       grooming. The price is reasonable and the service is good, I'm very
-      impressed w/ the outcome. I'm definitely coming back!!.
-    </p>
-    <a href="https://www.yelp.com/biz/tiny-little-paws-dog-grooming-services-chino-hills?hrid=edf_yrGgQwfzB3a5d8hJ-w">See review on Yelp</a>
+      impressed w/ the outcome. I'm definitely coming back!!
+    </div>
+    <div class="yelpreview">
+      <a
+        href="https://www.yelp.com/biz/tiny-little-paws-dog-grooming-services-chino-hills?hrid=dGwGVYTgJ80u6UHhIB1WwA"
+        >See review on Yelp</a
+      >
+    </div>
   </div>
   <div class="container">
     <img
@@ -25,8 +30,8 @@
       alt="Avatar"
       style="width:50px"
     />
-    <p>Sapi M.</p>
-    <p>
+    <p class="name">Sapi M.</p>
+    <div class="review">
       My dog needed grooming after a dirty day at a beach! Most places were
       booked about at least a month. I found this new place from Yelp. I was
       skeptical at first since they're very new in business but since I needed
@@ -37,17 +42,25 @@
       took them about 2 hours to finish. The price is reasonable anOverall I'm
       very happy with the results. Will come back & recommend this place to all
       my dogs lovers!
-    </p>
-    <a href="https://www.yelp.com/biz/tiny-little-paws-dog-grooming-services-chino-hills?hrid=dGwGVYTgJ80u6UHhIB1WwA">See review on Yelp</a>
+    </div>
+    <div class="yelpreview">
+      <a
+        href="https://www.yelp.com/biz/tiny-little-paws-dog-grooming-services-chino-hills?hrid=dGwGVYTgJ80u6UHhIB1WwA"
+        >See review on Yelp</a
+      >
+    </div>
   </div>
   <div class="container">
-    <img
-      src="https://s3-media0.fl.yelpcdn.com/assets/public/default_user_avatar_120x120_v2@2x.yji-def25ce47c5e341d037842316b556031.png"
-      alt="Avatar"
-      style="width:50px"
-    />
-    <p>Fnu J.</p>
-    <p>
+    <div>
+      <img
+        src="https://s3-media0.fl.yelpcdn.com/assets/public/default_user_avatar_120x120_v2@2x.yji-def25ce47c5e341d037842316b556031.png"
+        alt="Avatar"
+        style="width:50px"
+      />
+    </div>
+
+    <p class="name">Fnu J.</p>
+    <div class="review">
       The only dog grooming place nearby are always book up months in advance so
       when this new service opens up, I decided to give this place a try. Owners
       are friendly and responsive. They have 3 dogs of their own, so I can tell
@@ -55,10 +68,14 @@
       pawrents themselves. Must say its a refreshing experience to get a new
       cut. Our baby looks so adorable. They have great attention to details.
       Much cleaner cut especially armpits area and behind the legs. Our baby,
-      Mochi, will be back for more cut definitely. You should give them a try!
-    </p>
-
-    <a href="https://www.yelp.com/biz/tiny-little-paws-dog-grooming-services-chino-hills?hrid=tRhEeIzS7Cq3yO9gi_qoag">See review on Yelp</a>
+      Mochi, will be back for more cut definitely.
+    </div>
+    <div class="yelpreview">
+      <a
+        href="https://www.yelp.com/biz/tiny-little-paws-dog-grooming-services-chino-hills?hrid=tRhEeIzS7Cq3yO9gi_qoag"
+        >See review on Yelp</a
+      >
+    </div>
   </div>
 </section>
 
@@ -68,12 +85,30 @@
     width: 100%;
     text-align: center;
   }
+  .yelpreview {
+    text-align: center;
+    padding: 5px;
+  }
+  .review {
+    text-align: justify;
+    max-width: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+  }
   .container {
     border: 2px solid #ccc;
     background-color: #eee;
     border-radius: 5px;
     padding: 15px;
+    height: auto;
     margin: auto;
+    width: 30%;
+  }
+  .container .name {
+    text-align: left;
+    font-weight: bold;
   }
 
   .container::after {

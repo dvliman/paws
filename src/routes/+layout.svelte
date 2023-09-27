@@ -1,18 +1,18 @@
 <script>
-  import Analytics from "$lib/analytics.svelte";
-  import "../global.css";
-  import Icon from "@iconify/svelte";
+  import Analytics from '$lib/analytics.svelte';
+  import '../global.css';
+  import Icon from '@iconify/svelte';
 
   let openOrClosed;
   switch (new Date().getDay()) {
     case 0:
-      openOrClosed = "Sorry, we are closed today";
+      openOrClosed = 'Sorry, we are closed today';
       break;
     case 6:
-      openOrClosed = "We are open half-day today from 8:00 a.m. to 12:00 p.m";
+      openOrClosed = 'We are open half-day today from 8:00 a.m. to 12:00 p.m';
       break;
     default:
-      openOrClosed = "We are open today from 8:00 a.m. to 5:00 p.m";
+      openOrClosed = 'We are open today from 8:00 a.m. to 5:00 p.m';
   }
 
   let show = false;
@@ -23,11 +23,6 @@
 
 <!-- svelte-ignore a11y-missing-attribute -->
 <svelte:head>
-  <!-- Meta Pixel Code -->
-  <!-- Meta Pixel Code -->
-  <!-- Meta Pixel Code -->
-  <!-- Meta Pixel Code -->
-  <!-- Meta Pixel Code -->
   <script>
     !(function (f, b, e, v, n, t, s) {
       if (f.fbq) return;
@@ -39,7 +34,7 @@
       if (!f._fbq) f._fbq = n;
       n.push = n;
       n.loaded = !0;
-      n.version = "2.0";
+      n.version = '2.0';
       n.queue = [];
       t = b.createElement(e);
       t.async = !0;
@@ -49,21 +44,18 @@
     })(
       window,
       document,
-      "script",
-      "https://connect.facebook.net/en_US/fbevents.js"
+      'script',
+      'https://connect.facebook.net/en_US/fbevents.js'
     );
-    fbq("init", "826349535656951");
-    fbq("track", "PageView");
+    fbq('init', '826349535656951');
+    fbq('track', 'PageView');
   </script>
   <noscript
     ><img
       height="1"
       width="1"
       style="display:none"
-      src="https://www.facebook.com/tr?id=826349535656951&ev=PageView&noscript=1"
-    /></noscript
-  >
-  <!-- End Meta Pixel Code -->
+      src="https://www.facebook.com/tr?id=826349535656951&ev=PageView&noscript=1" /></noscript>
 </svelte:head>
 
 <section>
@@ -72,36 +64,32 @@
       <span class="hide-in-mobile">{openOrClosed}</span>
       <span class="hide-in-mobile">•</span>
       <span class="hide-in-mobile">
-        Cross street of Butterfield Ranch Rd and Pine Ave in Chino Hills
+        Cross street of <strong>Butterfield Ranch Rd</strong> and
+        <strong>Pine Ave</strong> in Chino Hills
       </span>
       <span class="hide-in-mobile">•</span>
       <span
         ><a href="sms:+17142532851?&body=Can I schedule an appointment?"
-          >(714) 253-2851</a
-        >
+          >(714) 253-2851</a>
         or
         <a href="sms:+19493728480?&body=Can I schedule an appointment?"
           >(949) 372-8480</a
-        ></span
-      >
+        ></span>
     </div>
     <div class="social">
       <a href="tel:+17142532851">
         <Icon icon="akar-icons:phone" color="black" width="20" height="20" />
       </a>
       <a
-        href="https://wa.me/17142532851?text=Can%20I%20schedule%20an%20appointment%3F"
-      >
+        href="https://wa.me/17142532851?text=Can%20I%20schedule%20an%20appointment%3F">
         <Icon
           icon="akar-icons:whatsapp-fill"
           color="black"
           width="20"
-          height="20"
-        />
+          height="20" />
       </a>
       <a
-        href="https://www.yelp.com/biz/tiny-little-paws-dog-grooming-services-chino-hills"
-      >
+        href="https://www.yelp.com/biz/tiny-little-paws-dog-grooming-services-chino-hills">
         <Icon icon="simple-icons:yelp" color="black" width="20" height="20" />
       </a>
       <a href="https://instagram.com/tinylittlepawsla">
@@ -109,19 +97,15 @@
           icon="akar-icons:instagram-fill"
           color="black"
           width="20"
-          height="20"
-        />
+          height="20" />
       </a>
     </div>
   </div>
 </section>
 
 <nav>
-  <div />
-  <button on:click={toggle}
-    ><Icon icon="akar-icons:three-line-horizontal" />Menu</button
-  >
-
+  <button on:click={toggle}>
+    <Icon icon="akar-icons:three-line-horizontal" />Menu</button>
   <div class="menu-items-mobile" class:hide={!show}>
     <a href="/" on:click={toggle}>Home</a>
     <a href="/about-us" on:click={toggle}>About Us</a>
@@ -160,12 +144,16 @@
         <br />
         <i>(contact us to get the exact address)</i>
       </p>
-      <p>David: <a href="tel:+17142532851">(714) 253-2851</a></p>
-      <p>
-        Fiona: <a href="sms:+19493728480?&body=Can I schedule an appointment?"
-          >(949) 372-8480</a
-        >
-      </p>
+      <div>
+        David: <a class="phone-number" href="tel:+17142532851"
+          >(714) 253-2851</a>
+      </div>
+      <div>
+        Fiona: <a
+          class="phone-number"
+          href="sms:+19493728480?&body=Can I schedule an appointment?"
+          >(949) 372-8480</a>
+      </div>
     </address>
   </div>
   <div>
@@ -245,6 +233,11 @@
       width: 100%;
       margin: 0 auto;
       padding: 0.75rem 2rem;
+
+      & a {
+        text-decoration: none;
+        font-weight: bold;
+      }
       @media (min-width: 798px) {
         padding: 0.75rem 4rem;
         justify-content: space-between;
@@ -276,8 +269,8 @@
     justify-content: center;
     align-items: center;
     margin: 0;
-    position: sticky;
     top: 0;
+    position: sticky;
     background: white;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     flex-direction: column;
@@ -359,6 +352,13 @@
       flex: 1;
     }
 
+    & a {
+      text-decoration: none;
+    }
+    & .phone-number {
+      color: black;
+      font-weight: bold;
+    }
     @media (min-width: 798px) {
       gap: 2rem;
       padding: 0.75rem 4rem;
@@ -366,39 +366,21 @@
     & i {
       font-size: 1rem;
     }
-  }
 
-  /* @media (max-width: 768px) {
-    footer {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
+    & table,
+    td {
+      border: none;
     }
-  } */
-  table {
-    border-collapse: collapse;
-  }
-  table,
-  td {
-    border: none;
-  }
-  tr:nth-child(odd) {
-    background-color: transparent;
-  }
-  tr:nth-child(even) {
-    background-color: transparent;
-  }
-  div ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    margin-bottom: 12px;
+    & tr {
+      background-color: transparent;
+    }
+
+    & ul {
+      list-style: none;
+      padding: 0;
+    }
   }
 
-  div ul a {
-    text-decoration: none;
-    display: inline-block;
-  }
   .hide-in-mobile {
     display: none;
     @media (min-width: 1024px) {

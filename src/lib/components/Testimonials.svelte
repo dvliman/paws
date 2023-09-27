@@ -17,7 +17,7 @@
       grooming. The price is reasonable and the service is good, I'm very
       impressed w/ the outcome. I'm definitely coming back!!
     </div>
-    <div class="yelpreview">
+    <div class="yelp-link">
       <a
         href="https://www.yelp.com/biz/tiny-little-paws-dog-grooming-services-chino-hills?hrid=dGwGVYTgJ80u6UHhIB1WwA"
         >See review on Yelp</a
@@ -43,7 +43,7 @@
       very happy with the results. Will come back & recommend this place to all
       my dogs lovers!
     </div>
-    <div class="yelpreview">
+    <div class="yelp-link">
       <a
         href="https://www.yelp.com/biz/tiny-little-paws-dog-grooming-services-chino-hills?hrid=dGwGVYTgJ80u6UHhIB1WwA"
         >See review on Yelp</a
@@ -70,7 +70,7 @@
       Much cleaner cut especially armpits area and behind the legs. Our baby,
       Mochi, will be back for more cut definitely.
     </div>
-    <div class="yelpreview">
+    <div class="yelp-link">
       <a
         href="https://www.yelp.com/biz/tiny-little-paws-dog-grooming-services-chino-hills?hrid=tRhEeIzS7Cq3yO9gi_qoag"
         >See review on Yelp</a
@@ -85,51 +85,37 @@
     width: 100%;
     text-align: center;
   }
-  .yelpreview {
-    text-align: center;
-    padding: 5px;
+
+  section {
+    display: flex;
   }
-  .review {
-    text-align: justify;
-    max-width: 100%;
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 7;
-    -webkit-box-orient: vertical;
-  }
+  
   .container {
+    flex-direction: column;
     border: 2px dashed #ccc;
     border-radius: 1rem;
     padding: 1rem;
-    height: auto;
-    margin: auto;
-    width: 30%;
-  }
-  .container .name {
-    text-align: left;
-    font-weight: bold;
-  }
-
-  .container::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
-  .container img {
-    float: left;
-    margin-right: 1rem;
-    border-radius: 50%;
-  }
-
-  @media (max-width: 500px) {
-    .container {
-      text-align: center;
+    & img {
+      float: left;
+      margin-right: 1rem;
+      border-radius: 50%;
     }
-    .container img {
-      margin: auto;
-      float: none;
-      display: block;
+
+    & .name {
+      text-align: left;
+      font-weight: bold;
+    }
+
+    & .review {
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 7;
+      -webkit-box-orient: vertical;
+    }
+
+    & .yelp-link {
+      padding: 1rem;
+      text-align: center;
     }
   }
 </style>

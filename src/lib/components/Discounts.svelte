@@ -169,13 +169,11 @@
     margin-right: auto;
     width: 50%;
   }
-  section {
-    & div {
-      flex: 1;
-    }
-  }
+
   .discount {
-    padding: 1rem;
+    padding: 2rem;
+    flex-direction: column;
+    text-align: center;
     border-radius: 1rem;
     border: 2px dashed #aaa;
     & img {
@@ -189,11 +187,12 @@
       justify-content: center;
       align-items: center;
     }
-    @media (min-width: 798px) {
-      justify-content: space-between;
-    }
+
     & button {
       background-color: var(--nc-tx-1);
+    }
+    @media (min-width: 798px) {
+      justify-content: space-between;
     }
   }
 </style>

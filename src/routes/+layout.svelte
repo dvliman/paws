@@ -64,8 +64,7 @@
       <span class="hide-in-mobile">{openOrClosed}</span>
       <span class="hide-in-mobile">•</span>
       <span class="hide-in-mobile">
-        Cross street of <strong>Butterfield Ranch Rd</strong> and
-        <strong>Pine Ave</strong> in Chino Hills
+        <strong>$10 off on the first appointment!</strong>
       </span>
       <span class="hide-in-mobile">•</span>
       <span

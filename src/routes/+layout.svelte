@@ -24,6 +24,10 @@
 <!-- svelte-ignore a11y-missing-attribute -->
 <svelte:head>
   <!-- Meta Pixel Code -->
+  <!-- Meta Pixel Code -->
+  <!-- Meta Pixel Code -->
+  <!-- Meta Pixel Code -->
+  <!-- Meta Pixel Code -->
   <script>
     !(function (f, b, e, v, n, t, s) {
       if (f.fbq) return;
@@ -153,6 +157,8 @@
       <p>
         Cross street of <strong>Butterfield Ranch Rd</strong><br />and
         <strong>Pine Ave</strong> in Chino Hills
+        <br />
+        <i>(contact us to get the exact address)</i>
       </p>
       <p>David: <a href="tel:+17142532851">(714) 253-2851</a></p>
       <p>
@@ -217,7 +223,9 @@
       <li><a href="/gallery" on:click={toggle}>Gallery</a></li>
       <li><a href="/faq" on:click={toggle}>F.A.Q</a></li>
       <li><a href="/contact-us" on:click={toggle}>Contact Us</a></li>
-      <li><a href="/booking" on:click={toggle}><strong>Book Now</strong></a></li>
+      <li>
+        <a href="/booking" on:click={toggle}><strong>Book Now</strong></a>
+      </li>
     </ul>
   </div>
 </footer>
@@ -337,24 +345,36 @@
     margin: 0 auto;
   }
   footer {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
     max-width: 1280px;
+
     margin: 0 auto;
     display: flex;
-    justify-content: center;
-    align-content: center;
-    gap: 10px 1px;
+
+    gap: 10px 10rem;
     & div {
-      margin: 0 2rem;
+      flex: 1;
+    }
+
+    @media (min-width: 798px) {
+      gap: 2rem;
+      padding: 0.75rem 4rem;
+    }
+    & i {
+      font-size: 1rem;
     }
   }
 
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     footer {
       flex-direction: column;
       align-items: center;
       text-align: center;
     }
-  }
+  } */
   table {
     border-collapse: collapse;
   }

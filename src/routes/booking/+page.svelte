@@ -10,7 +10,7 @@
 background-color: #ff5d8f;
 border: none;
 color: white;
-height: 40px;
+
 text-decoration: none;
 text-transform: uppercase;
 letter-spacing: 1px;

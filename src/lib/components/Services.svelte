@@ -1,11 +1,15 @@
 <script>
+	import { goto } from '$app/navigation';
 	import Icon from "@iconify/svelte";
 </script>
 
 <section>
 	<h1>Our Services</h1>
 	<div class="pricing">
-		<h2>Bath Only</h2>
+		<div class="service-header">
+			<h2>Bath Only</h2>
+			<button on:click={() => goto("booking") }>Book Now</button>
+		</div>
 		<ul>
 			<li>
 				<div><span>1 - 15 lbs</span><span>Tiny dogs</span></div>
@@ -24,13 +28,16 @@
 				<div class="price">$70</div>
 			</li>
 			<li>
-				<div><span>76 lbs 81 lbs & up up</span><span>XLarge dogs</span></div>
+				<div><span>76 lbs & up</span><span>XLarge dogs</span></div>
 				<div class="price">$75</div>
 			</li>
 		</ul>
 	</div>
 	<div class="pricing">
-		<h2>Bath + Haircut</h2>
+		<div class="service-header">
+			<h2>Bath + Haircut</h2>
+			<button on:click={() => goto("booking") }>Book Now</button>
+		</div>
 		<ul>
 			<li>
 				<div><span>1 - 15 lbs</span><span>Tiny dogs</span></div>
@@ -49,7 +56,7 @@
 				<div class="price">$115</div>
 			</li>
 			<li>
-				<div><span>76 lbs 81 lbs & up up</span><span>XLarge dogs</span></div>
+				<div><span>76 lbs & up</span><span>XLarge dogs</span></div>
 				<div class="price">$145</div>
 			</li>
 		</ul>
@@ -89,58 +96,58 @@
 			</ul>
 		</div>
 	</div>
-	<div>
+	<div class="add-on">
 		<h2>Add-on (à la carte) Services</h2>
 		<ul>
-			<li class="options">
+			<li>
 				<div>Nail Trimming (1 - 40 lbs)</div>
 				<div class="price">$15</div>
 			</li>
-			<li class="options">
+			<li>
 				<div><span>Nail Trimming (40 lbs & up)</span></div>
 				<div class="price">$20</div>
 			</li>
-			<li class="options">
+			<li>
 				<div><span>Ear cleaning</span></div>
 				<div class="price">$10</div>
 			</li>
-			<li class="options">
+			<li>
 				<div><span>Anal Gland Expression</span></div>
 				<div class="price">$10</div>
 			</li>
-			<li class="options">
+			<li>
 				<div><span>Teeth brushing</span></div>
 				<div class="price">$5</div>
 			</li>
-			<li class="options">
+			<li>
 				<div><span>Flea & Tick bath</span></div>
 				<div class="price">$10</div>
 			</li>
-			<li class="options">
+			<li>
 				<div><span>Face trim</span></div>
 				<div class="price">$10</div>
 			</li>
-			<li class="options">
+			<li>
 				<div><span>Butt trim</span></div>
 				<div class="price">$10</div>
 			</li>
-			<li class="options">
+			<li>
 				<div><span>Paws trim</span></div>
 				<div class="price">$5</div>
 			</li>
-			<li class="options">
+			<li>
 				<div><span>Sanitary trim</span></div>
 				<div class="price">$5</div>
 			</li>
-			<li class="options">
+			<li>
 				<div><span>Brush & De-matting</span></div>
 				<div class="price">$10 / 15 mins</div>
 			</li>
-			<li class="options">
+			<li>
 				<div><span>De-shedding</span></div>
 				<div class="price">$10 / 15 mins</div>
 			</li>
-			<li class="options">
+			<li>
 				<div><span>De-greasy</span></div>
 				<div class="price">$15</div>
 			</li>
@@ -190,6 +197,18 @@
 				}
 			}
 		}
+		& .add-on {
+			padding: 0;
+			& li {
+				display: flex;
+				flex-flow: row;
+				justify-content: space-between;
+			}
+			@media (min-width: 798px) {
+				padding: 2rem;
+				font-size: 2.5rem;
+			}
+		}
 	}
 	.pricing {
 		width: 50%;
@@ -212,16 +231,21 @@
 			}
 		}
 		& .price {
+			text-align: right;
 			font-size: 1.75rem;
 			@media (min-width: 798px) {
 				font-size: 2.5rem;
 			}
 		}
-	}
-	.options {
-		display: flex; 
-		flex-flow: row; 
-		justify-content: space-between;
+		& .service-header {
+			display: flex;
+			flex: 1;
+			justify-content: space-between;
+			& button {
+				height: 2rem;
+				background-color: var(--nc-tx-1);
+			}
+		}
 	}
 	h2 {
 		margin-bottom: 1.5rem;

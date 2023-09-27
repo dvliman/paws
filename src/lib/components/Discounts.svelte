@@ -87,13 +87,10 @@
 
   <div class="discount">
     <h3>New Customer Discount</h3>
-    <h3 style="color:red">$20 off Bath + Haircut</h3>
-    <h3 style="color:red">$10 off Bath Only</h3>
     <img class="center" src={Tiny} alt="New Customer Discount - $20 off" />
     <span>{validCoupon()}</span>
-    <div class="centerbutton">
+    <div>
       <button
-        class="print"
         on:click={() =>
           print(
             window,
@@ -101,7 +98,7 @@
               "New Customer Discount",
               validCoupon(),
               Tiny,
-              "New Customers will receive $20 off Bath + Haircut / $10 off Bath Only on their first appointment if you mention this discount on your first appointment!"
+              "New Customers will receive $10 off on their first appointment if you mention this discount on your first appointment!"
             )
           )}>Print</button
       >
@@ -111,13 +108,10 @@
 
   <div class="discount">
     <h3>Refer a Friend or Neighbor</h3>
-    <h3 style="color:white">dummy</h3>
-    <h3 style="color:white">dummy</h3>
     <img class="center" src={Taco} alt="Refer a Friend or Neighbor" />
     <span>{validCoupon()}</span>
-    <div class="centerbutton">
+    <div>
       <button
-        class="print"
         on:click={() =>
           print(
             window,
@@ -135,13 +129,10 @@
 
   <div class="discount">
     <h3>Multiple Pet Discount</h3>
-    <h3 style="color:white">dummy</h3>
-    <h3 style="color:white">dummy</h3>
     <img class="center" src={Nino} alt="Multiple Pet Discount" />
     <span>{validCoupon()}</span>
-    <div class="centerbutton">
+    <div>
       <button
-        class="print"
         on:click={() =>
           print(
             window,
@@ -171,16 +162,7 @@
     display: flex;
     justify-content: center;
   }
-  .centerbutton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .print {
-    background: white;
-    border: 1px solid black;
-    color: black;
-  }
+
   .center {
     display: block;
     margin-left: auto;
@@ -201,6 +183,17 @@
       height: 200px;
       object-fit: cover;
       border-radius: 50%;
+    }
+    & div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @media (min-width: 798px) {
+      justify-content: space-between;
+    }
+    & button {
+      background-color: var(--nc-tx-1);
     }
   }
 </style>

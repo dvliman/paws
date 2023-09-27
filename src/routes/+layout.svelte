@@ -24,9 +24,6 @@
 <!-- svelte-ignore a11y-missing-attribute -->
 <svelte:head>
   <!-- Meta Pixel Code -->
-  <!-- Meta Pixel Code -->
-  <!-- Meta Pixel Code -->
-  <!-- Meta Pixel Code -->
   <script>
     !(function (f, b, e, v, n, t, s) {
       if (f.fbq) return;
@@ -166,79 +163,61 @@
     </address>
   </div>
   <div>
-    <div>
-      <h3>Business hours</h3>
-      <div>
-        <table>
-          <tr>
-            <td>Mon</td>
-            <td>8:00 AM</td>
-            <td>-</td>
-            <td>5:00 PM</td>
-          </tr>
-          <tr>
-            <td>Tue</td>
-            <td>8:00 AM</td>
-            <td>-</td>
-            <td>5:00 PM</td>
-          </tr>
-          <tr>
-            <td>Wed</td>
-            <td>8:00 AM</td>
-            <td>-</td>
-            <td>5:00 PM</td>
-          </tr>
-          <tr>
-            <td>Thu</td>
-            <td>8:00 AM</td>
-            <td>-</td>
-            <td>5:00 PM</td>
-          </tr>
-          <tr>
-            <td>Fri</td>
-            <td>8:00 AM</td>
-            <td>-</td>
-            <td>5:00 PM</td>
-          </tr>
-          <tr>
-            <td>Sat</td>
-            <td>8:00 AM</td>
-            <td>-</td>
-            <td>12:00 PM</td>
-          </tr>
-          <tr>
-            <td>Sun</td>
-            <td>Closed</td>
-          </tr>
-        </table>
-      </div>
-    </div>
+    <h3>Business hours</h3>
+    <table>
+      <tr>
+        <td>Mon</td>
+        <td>8:00 AM</td>
+        <td>-</td>
+        <td>5:00 PM</td>
+      </tr>
+      <tr>
+        <td>Tue</td>
+        <td>8:00 AM</td>
+        <td>-</td>
+        <td>5:00 PM</td>
+      </tr>
+      <tr>
+        <td>Wed</td>
+        <td>8:00 AM</td>
+        <td>-</td>
+        <td>5:00 PM</td>
+      </tr>
+      <tr>
+        <td>Thu</td>
+        <td>8:00 AM</td>
+        <td>-</td>
+        <td>5:00 PM</td>
+      </tr>
+      <tr>
+        <td>Fri</td>
+        <td>8:00 AM</td>
+        <td>-</td>
+        <td>5:00 PM</td>
+      </tr>
+      <tr>
+        <td>Sat</td>
+        <td>8:00 AM</td>
+        <td>-</td>
+        <td>12:00 PM</td>
+      </tr>
+      <tr>
+        <td>Sun</td>
+        <td>Closed</td>
+      </tr>
+    </table>
   </div>
   <div>
     <h3>Sitemap</h3>
     <ul>
-      <a href="/">Home</a>
-    </ul>
-    <ul>
-      <a href="/about-us">About Us</a>
-    </ul>
-    <ul>
-      <a href="/services">Services</a>
-    </ul>
-    <ul>
-      <a href="/policies">Policies</a>
-    </ul>
-    <ul>
-      <a href="/gallery">Gallery</a>
-    </ul>
-    <ul>
-      <a href="/faq">F.A.Q</a>
-    </ul>
-    <ul>
-      <a href="/contact-us">Contact Us</a>
-    </ul>
-    <ul>
-      <a href="/booking"><strong>Book Now</strong></a>
+      <li><a href="/" on:click={toggle}>Home</a></li>
+      <li><a href="/about-us" on:click={toggle}>About Us</a></li>
+      <li><a href="/services" on:click={toggle}>Services</a></li>
+      <li><a href="/policies" on:click={toggle}>Policies</a></li>
+      <li><a href="/gallery" on:click={toggle}>Gallery</a></li>
+      <li><a href="/faq" on:click={toggle}>F.A.Q</a></li>
+      <li><a href="/contact-us" on:click={toggle}>Contact Us</a></li>
+      <li><a href="/booking" on:click={toggle}><strong>Book Now</strong></a></li>
     </ul>
   </div>
 </footer>
@@ -361,9 +340,12 @@
     max-width: 1280px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-content: center;
     gap: 10px 1px;
+    & div {
+      margin: 0 2rem;
+    }
   }
 
   @media (max-width: 768px) {
@@ -405,11 +387,5 @@
   }
   .hide {
     display: none !important;
-  }
-  footer {
-    padding: 3rem;
-     & div {
-      margin: 0 auto;
-     } 
   }
 </style>

@@ -204,16 +204,14 @@
   <div>
     <h3>Sitemap</h3>
     <ul>
-      <li><a href="/" on:click={toggle}>Home</a></li>
-      <li><a href="/about-us" on:click={toggle}>About Us</a></li>
-      <li><a href="/services" on:click={toggle}>Services</a></li>
-      <li><a href="/policies" on:click={toggle}>Policies</a></li>
-      <li><a href="/gallery" on:click={toggle}>Gallery</a></li>
-      <li><a href="/faq" on:click={toggle}>F.A.Q</a></li>
-      <li><a href="/contact-us" on:click={toggle}>Contact Us</a></li>
-      <li>
-        <a href="/booking" on:click={toggle}><strong>Book Now</strong></a>
-      </li>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about-us">About Us</a></li>
+      <li><a href="/services">Services</a></li>
+      <li><a href="/policies">Policies</a></li>
+      <li><a href="/gallery">Gallery</a></li>
+      <li><a href="/faq">F.A.Q</a></li>
+      <li><a href="/contact-us">Contact Us</a></li>
+      <li><a href="/booking"><strong>Book Now</strong></a></li>
     </ul>
   </div>
 </footer>

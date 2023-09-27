@@ -144,14 +144,14 @@
         <i>(contact us to get the exact address)</i>
       </p>
       <div>
-        David: <a class="phone-number" href="tel:+17142532851"
-          >(714) 253-2851</a>
-      </div>
-      <div>
         Fiona: <a
           class="phone-number"
           href="sms:+19493728480?&body=Can I schedule an appointment?"
           >(949) 372-8480</a>
+      </div>
+      <div>
+        David: <a class="phone-number" href="tel:+17142532851"
+          >(714) 253-2851</a>
       </div>
     </address>
   </div>

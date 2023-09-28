@@ -1,14 +1,14 @@
 <script>
-  import Tiny from "$lib/assets/about/tiny.jpeg";
-  import Taco from "$lib/assets/about/taco.jpeg";
-  import Nino from "$lib/assets/about/nino.jpeg";
+  import Tiny from '$lib/assets/about/tiny.jpeg';
+  import Taco from '$lib/assets/about/taco.jpeg';
+  import Nino from '$lib/assets/about/nino.jpeg';
 
   function getFormattedDate(date) {
     let year = date.getFullYear();
-    let month = (1 + date.getMonth()).toString().padStart(2, "0");
-    let day = date.getDate().toString().padStart(2, "0");
+    let month = (1 + date.getMonth()).toString().padStart(2, '0');
+    let day = date.getDate().toString().padStart(2, '0');
 
-    return month + "/" + day + "/" + year;
+    return month + '/' + day + '/' + year;
   }
 
   function beginningCurrentMonth() {
@@ -63,10 +63,10 @@
 
   function print(printWindow, content) {
     function onDocumentReady(document, cb) {
-      if (document.readyState !== "loading") {
+      if (document.readyState !== 'loading') {
         cb(); // already loaded
       } else {
-        document.addEventListener("DOMContentLoaded", () => cb());
+        document.addEventListener('DOMContentLoaded', () => cb());
       }
     }
 
@@ -81,6 +81,7 @@
   }
 </script>
 
+<!-- svelte-ignore missing-declaration -->
 <section>
   <h1>Discounts & Coupons</h1>
   <p>Check out the different discounts we offer below!</p>
@@ -91,17 +92,18 @@
     <span>{validCoupon()}</span>
     <div>
       <button
-        on:click={() =>
+        on:click={() => {
+          track('print:new-customer');
           print(
             window,
             makeCoupon(
-              "New Customer Discount",
+              'New Customer Discount',
               validCoupon(),
               Tiny,
-              "New Customers will receive $10 off on their first appointment if you mention this discount on your first appointment!"
+              'New Customers will receive $10 off on their first appointment if you mention this discount on your first appointment!'
             )
-          )}>Print</button
-      >
+          );
+        }}>Print</button>
       <!-- <button style="margin:10px">Share</button> -->
     </div>
   </div>
@@ -112,17 +114,18 @@
     <span>{validCoupon()}</span>
     <div>
       <button
-        on:click={() =>
+        on:click={() => {
+          track('print:refer-friend-neighbor');
           print(
             window,
             makeCoupon(
-              "Refer a Friend or Neighbor",
+              'Refer a Friend or Neighbor',
               validCoupon(),
               Taco,
-              "Referrals are appreciated! Tell your friends and neighbors who live in our service area about us! For every new qualified customer that tells us your name on their first succesful bath or groom appointment, you will receive $10 off on your next service."
+              'Referrals are appreciated! Tell your friends and neighbors who live in our service area about us! For every new qualified customer that tells us your name on their first succesful bath or groom appointment, you will receive $10 off on your next service.'
             )
-          )}>Print</button
-      >
+          );
+        }}>Print</button>
       <!-- <button style="margin:10px">Share</button> -->
     </div>
   </div>
@@ -133,17 +136,17 @@
     <span>{validCoupon()}</span>
     <div>
       <button
-        on:click={() =>
+        on:click={() => {
+          track('print:multiple-pets');
           print(
             window,
             makeCoupon(
-              "Multiple Pet Discount",
+              'Multiple Pet Discount',
               validCoupon(),
               Nino,
-              "Multiple Pet Discount for 3 or more pets, $10 off each pet."
+              'Multiple Pet Discount for 3 or more pets, $10 off each pet.'
             )
-          )}>Print</button
-      >
+          )}}>Print</button>
       <!-- <button style="margin:10px">Share</button> -->
     </div>
   </div>

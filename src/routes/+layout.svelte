@@ -23,6 +23,22 @@
 
 <!-- svelte-ignore a11y-missing-attribute -->
 <svelte:head>
+  <script src="https://cdn.logsnag.com/js/1.0.0/ls.js"></script>
+  <script>
+    window.logsnag = new LogSnag({
+      token: '0f49e60175f9d0c265706557d26acc09',
+      project: 'paws',
+    });
+
+    function track(event) {
+      window.logsnag.track({
+        channel: 'website',
+        event: event,
+        icon: '💰',
+        notify: true,
+      });
+    }
+  </script>
   <script>
     !(function (f, b, e, v, n, t, s) {
       if (f.fbq) return;
@@ -50,14 +66,16 @@
     fbq('init', '826349535656951');
     fbq('track', 'PageView');
   </script>
-  <noscript
-    ><img
+  <noscript>
+    <img
       height="1"
       width="1"
       style="display:none"
-      src="https://www.facebook.com/tr?id=826349535656951&ev=PageView&noscript=1" /></noscript>
+      src="https://www.facebook.com/tr?id=826349535656951&ev=PageView&noscript=1" />
+  </noscript>
 </svelte:head>
 
+<!-- svelte-ignore missing-declaration -->
 <section>
   <div class="container">
     <div class="info">
@@ -67,19 +85,25 @@
         <strong>$10 off on the first appointment!</strong>
       </span>
       <span class="hide-in-mobile">•</span>
-      <span
-        ><a href="sms:+17142532851?&body=Can I schedule an appointment?"
+      <span>
+        <a
+          on:click={() => track('sms:david')}
+          href="sms:+17142532851?&body=Can I schedule an appointment? My dog's weight is"
           >(714) 253-2851</a>
         or
-        <a href="sms:+19493728480?&body=Can I schedule an appointment?"
-          >(949) 372-8480</a
-        ></span>
+        <a
+          on:click={() => track('sms:fiona')}
+          href="sms:+19493728480?&body=Can I schedule an appointment? My dog's weight is"
+          >(949) 372-8480</a>
+      </span>
     </div>
     <div class="social">
-      <a href="tel:+17142532851">
+      <a on:click={() => track('phone')} href="tel:+17142532851">
         <Icon icon="akar-icons:phone" color="black" width="20" height="20" />
       </a>
+
       <a
+        on:click={() => track('whatsapp')}
         href="https://wa.me/17142532851?text=Can%20I%20schedule%20an%20appointment%3F">
         <Icon
           icon="akar-icons:whatsapp-fill"
@@ -88,10 +112,13 @@
           height="20" />
       </a>
       <a
+        on:click={() => track('yelp')}
         href="https://www.yelp.com/biz/tiny-little-paws-dog-grooming-services-chino-hills">
         <Icon icon="simple-icons:yelp" color="black" width="20" height="20" />
       </a>
-      <a href="https://instagram.com/tinylittlepawsla">
+      <a
+        on:click={() => track('instagram')}
+        href="https://instagram.com/tinylittlepawsla">
         <Icon
           icon="akar-icons:instagram-fill"
           color="black"
@@ -132,6 +159,7 @@
   <slot />
 </main>
 
+<!-- svelte-ignore missing-declaration -->
 <footer>
   <div>
     <h2>Tiny Little Paws</h2>
@@ -145,13 +173,15 @@
       </p>
       <div>
         Fiona: <a
+          on:click={() => track('tel:fiona')}
           class="phone-number"
-          href="sms:+19493728480?&body=Can I schedule an appointment?"
-          >(949) 372-8480</a>
+          href="tel:+19493728480">(949) 372-8480</a>
       </div>
       <div>
-        David: <a class="phone-number" href="tel:+17142532851"
-          >(714) 253-2851</a>
+        David: <a
+          on:click={() => track('tel:david')}
+          class="phone-number"
+          href="tel:+17142532851">(714) 253-2851</a>
       </div>
     </address>
   </div>

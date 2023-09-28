@@ -9,8 +9,7 @@
     <img
       src="https://s3-media0.fl.yelpcdn.com/photo/ML1sIjy-sJi0r7ua3Um9Sw/ls.jpg"
       alt="Avatar"
-      style="width:50px"
-    />
+      style="width:50px" />
     <p class="name">Kimmy M.</p>
     <div class="review">
       I highly recommend this place. First time bringing my dog here for
@@ -20,16 +19,14 @@
     <div class="yelp-link">
       <a
         href="https://www.yelp.com/biz/tiny-little-paws-dog-grooming-services-chino-hills?hrid=dGwGVYTgJ80u6UHhIB1WwA"
-        >See review on Yelp</a
-      >
+        >See the review on Yelp</a>
     </div>
   </div>
   <div class="container">
     <img
       src="https://s3-media0.fl.yelpcdn.com/photo/geNvPUHNqI7JeUVtWhjsPA/ls.jpg"
       alt="Avatar"
-      style="width:50px"
-    />
+      style="width:50px" />
     <p class="name">Sapi M.</p>
     <div class="review">
       My dog needed grooming after a dirty day at a beach! Most places were
@@ -46,8 +43,7 @@
     <div class="yelp-link">
       <a
         href="https://www.yelp.com/biz/tiny-little-paws-dog-grooming-services-chino-hills?hrid=dGwGVYTgJ80u6UHhIB1WwA"
-        >See review on Yelp</a
-      >
+        >See the review on Yelp</a>
     </div>
   </div>
   <div class="container">
@@ -55,8 +51,7 @@
       <img
         src="https://s3-media0.fl.yelpcdn.com/assets/public/default_user_avatar_120x120_v2@2x.yji-def25ce47c5e341d037842316b556031.png"
         alt="Avatar"
-        style="width:50px"
-      />
+        style="width:50px" />
     </div>
 
     <p class="name">Fnu J.</p>
@@ -73,8 +68,7 @@
     <div class="yelp-link">
       <a
         href="https://www.yelp.com/biz/tiny-little-paws-dog-grooming-services-chino-hills?hrid=tRhEeIzS7Cq3yO9gi_qoag"
-        >See review on Yelp</a
-      >
+        >See the review on Yelp</a>
     </div>
   </div>
 </section>
@@ -89,7 +83,7 @@
   section {
     display: flex;
   }
-  
+
   .container {
     flex-direction: column;
     border: 2px dashed #ccc;

@@ -25,7 +25,7 @@
   import IMG0760 from '$lib/assets/pictures/IMG_9783.webp';
 </script>
 
-<MetaTags title="Gallery" description="Pictures of various styles and haircuts" />
+<MetaTags title="Gallery" description="Pictures of various styles and haircuts. We groom German Shepherds, Yorkshire Terrier, Poodle, Doodle, Maltese, Pomeranian, Shih Tzu, all kind of breeds" />
 
 <section>
   <h1>Gallery</h1>

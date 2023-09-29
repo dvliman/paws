@@ -29,7 +29,7 @@
 
   function makeCoupon(title, validity, image, description) {
     return `
-      <table style="margin: 0 auto; width: 100%; border: dashed; page-break-inside: avoid;">
+      <table style="margin: 0 auto; width: 100%; border: dashed; page-break-inside: avoid;">   
         <tbody>
           <tr style="background-color: #CCC">
             <td align="center" style="padding-top: 15px">
@@ -43,7 +43,7 @@
           </tr>
           <tr>
             <td align="center" style="padding-top: 15px">
-              <img src=${image} alt=${title} style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover">
+              <img src=${image} alt=${title} style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover" width="200" height="200">
             </td>
           </tr>
           <tr>
@@ -88,7 +88,7 @@
 
   <div class="discount">
     <h3>New Customer Discount</h3>
-    <img class="center" src={Tiny} alt="New Customer Discount - $20 off" />
+    <img class="center" src={Tiny} alt="New Customer Discount - $20 off" width="200" height="200"/>
     <span>{validCoupon()}</span>
     <div>
       <button
@@ -132,7 +132,7 @@
 
   <div class="discount">
     <h3>Multiple Pet Discount</h3>
-    <img class="center" src={Nino} alt="Multiple Pet Discount" />
+    <img class="center" src={Nino} alt="Multiple Pet Discount" width="200" height="200"/>
     <span>{validCoupon()}</span>
     <div>
       <button

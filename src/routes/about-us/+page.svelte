@@ -6,16 +6,22 @@
   import { MetaTags } from 'svelte-meta-tags';
 </script>
 
-<MetaTags title="About Us" description="Home based pet grooming service in Chino Hills, CA. Not mobile" />
+<MetaTags
+  title="About Us"
+  description="We offer dog grooming services in the Chino Hills area. We are a low-volume home-based boutique grooming salon. We take time to do the grooming" />
 
 <section class="intro">
   <h1>About us</h1>
   <p>
-    Tiny Little Paws is a home-based pet grooming service in Chino Hills, CA. I went to grooming school and got certified at American Dog
-    Grooming Academy in Temecula, California under the apprentice of Angela Clark.
+    Tiny Little Paws is a home-based pet grooming service in Chino Hills, CA. I
+    went to grooming school and got certified at American Dog Grooming Academy
+    in Temecula, California under the apprentice of Angela Clark.
   </p>
   <p>
-    We offer dog grooming services in the Chino Hills area. We are a low-volume home-based boutique grooming salon. We take time to do the grooming. As a result, grooming would be a much less stressful experience for your pets. We prioritize taking care and attention to your dog.
+    We offer dog grooming services in the Chino Hills area. We are a low-volume
+    home-based boutique grooming salon. We take time to do the grooming. As a
+    result, grooming would be a much less stressful experience for your pets. We
+    prioritize taking care and attention to your dog.
   </p>
 </section>
 
@@ -30,10 +36,9 @@
     <div class="profile-card">
       <img src={Tiny} alt="Tiny" />
       <h3>Tiny</h3>
-      <p style="margin-bottom: .5rem">
-        The bread & butter of the operation.
-      </p>
-      <a href="https://www.instagram.com/tinylittleyorkie/">@tinylittleyorkie</a>
+      <p style="margin-bottom: .5rem">The bread & butter of the operation.</p>
+      <a href="https://www.instagram.com/tinylittleyorkie/"
+        >@tinylittleyorkie</a>
     </div>
     <div class="profile-card">
       <img src={Taco} alt="Tacco" />
@@ -54,7 +59,11 @@
   }
   .intro {
     background: rgb(255, 71, 126);
-    background: linear-gradient(45deg, rgba(255, 71, 126, 1) 0%, rgba(255, 112, 150, 1) 100%);
+    background: linear-gradient(
+      45deg,
+      rgba(255, 71, 126, 1) 0%,
+      rgba(255, 112, 150, 1) 100%
+    );
     border-radius: 0 0 2rem 2rem;
     gap: 1rem;
     flex-direction: column;

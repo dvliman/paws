@@ -1,3 +1,9 @@
+<script>
+import { MetaTags } from 'svelte-meta-tags';
+</script>
+
+<MetaTags title="Booking" description="Book your appointment today. We will text you the follow ups." />
+
 <section>
 	<img
 		class="qr-code"
@@ -43,11 +49,11 @@ cursor: pointer;
 	a {
 		width: 50%;
 		margin: auto;
-		text-align: center;
 	}
 	section {
 		gap: 2rem;
 		display: flex;
+		text-align: center;
 		flex-direction: column;
 		& > div {
 			flex: 1;

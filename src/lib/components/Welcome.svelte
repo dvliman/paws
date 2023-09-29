@@ -20,7 +20,7 @@
     </p>
   </div>
   <div>
-    <img src={Tiny} alt="Tiny Little Paws Dog Grooming" />
+    <img src={Tiny} alt="Tiny Little Paws Dog Grooming" width="448" height="448"/>
   </div>
 </section>
 

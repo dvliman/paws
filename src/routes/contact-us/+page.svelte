@@ -3,7 +3,7 @@
 	import { MetaTags } from 'svelte-meta-tags';
 </script>
 
-<MetaTags title="Contact Us" description="Call us at (714) 253-2851 or (949) 372-8480" />
+<MetaTags title="Contact Us" description="Call or text us. David at (714) 253-2851 and Fiona at (949) 372-8480. Or you can book appointment, we will follow up with questions" />
 
 <section>
   <h1>Contact us</h1>

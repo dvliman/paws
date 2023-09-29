@@ -9,9 +9,8 @@
 </script>
 
 <MetaTags
-  title="Tiny Little Paws"
-  titleTemplate="%s | Dog Grooming Chino Hills"
-  description="Dog Grooming Services in Chino Hills, CA"
+  title="Dog Grooming Services in Chino Hills"
+  description="Dog Grooming near Chino Hills, Chino, Pomona, Eastvale, Corona, Ontario. We are a low-volume boutique home-based grooming salon. We take time to do the grooming"
   canonical="https://tinylittlepaws.com"
   openGraph={{
     url: 'https://tinylittlepaws.com/',

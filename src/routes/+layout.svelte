@@ -71,6 +71,7 @@
       height="1"
       width="1"
       style="display:none"
+      alt="meta pixel no script"
       src="https://www.facebook.com/tr?id=826349535656951&ev=PageView&noscript=1" />
   </noscript>
 </svelte:head>
@@ -188,46 +189,48 @@
   <div>
     <h3>Business hours</h3>
     <table>
-      <tr>
-        <td>Mon</td>
-        <td>8:00 AM</td>
-        <td>-</td>
-        <td>5:00 PM</td>
-      </tr>
-      <tr>
-        <td>Tue</td>
-        <td>8:00 AM</td>
-        <td>-</td>
-        <td>5:00 PM</td>
-      </tr>
-      <tr>
-        <td>Wed</td>
-        <td>8:00 AM</td>
-        <td>-</td>
-        <td>5:00 PM</td>
-      </tr>
-      <tr>
-        <td>Thu</td>
-        <td>8:00 AM</td>
-        <td>-</td>
-        <td>5:00 PM</td>
-      </tr>
-      <tr>
-        <td>Fri</td>
-        <td>8:00 AM</td>
-        <td>-</td>
-        <td>5:00 PM</td>
-      </tr>
-      <tr>
-        <td>Sat</td>
-        <td>8:00 AM</td>
-        <td>-</td>
-        <td>12:00 PM</td>
-      </tr>
-      <tr>
-        <td>Sun</td>
-        <td>Closed</td>
-      </tr>
+      <tbody>
+        <tr>
+          <td>Mon</td>
+          <td>8:00 AM</td>
+          <td>-</td>
+          <td>5:00 PM</td>
+        </tr>
+        <tr>
+          <td>Tue</td>
+          <td>8:00 AM</td>
+          <td>-</td>
+          <td>5:00 PM</td>
+        </tr>
+        <tr>
+          <td>Wed</td>
+          <td>8:00 AM</td>
+          <td>-</td>
+          <td>5:00 PM</td>
+        </tr>
+        <tr>
+          <td>Thu</td>
+          <td>8:00 AM</td>
+          <td>-</td>
+          <td>5:00 PM</td>
+        </tr>
+        <tr>
+          <td>Fri</td>
+          <td>8:00 AM</td>
+          <td>-</td>
+          <td>5:00 PM</td>
+        </tr>
+        <tr>
+          <td>Sat</td>
+          <td>8:00 AM</td>
+          <td>-</td>
+          <td>12:00 PM</td>
+        </tr>
+        <tr>
+          <td>Sun</td>
+          <td>Closed</td>
+        </tr>
+      </tbody>
     </table>
   </div>
   <div>

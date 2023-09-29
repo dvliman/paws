@@ -2,7 +2,7 @@
 import { MetaTags } from 'svelte-meta-tags';
 </script>
 
-<MetaTags title="Booking" description="Book your appointment today. We will text you the follow ups." />
+<MetaTags title="Booking - Dog Grooming Chino Hills" description="Book your appointment today. We will text you with the follow ups." />
 
 <section>
 	<img

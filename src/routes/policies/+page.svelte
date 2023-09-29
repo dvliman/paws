@@ -2,7 +2,7 @@
   import { MetaTags } from 'svelte-meta-tags';
 </script>
   
-<MetaTags title="Policies" description="Please read our policies before booking an appointment" />
+<MetaTags title="Policies - Dog Grooming Chino Hills" description="Please read our policies before booking an appointment. Things happen, we know. We appreciate pet parents keep us informed to reschedule appointment" />
 
 <section>
   <h1>Our policies</h1>

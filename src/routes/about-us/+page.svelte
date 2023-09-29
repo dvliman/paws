@@ -7,7 +7,7 @@
 </script>
 
 <MetaTags
-  title="About Us"
+  title="About Us - Dog Grooming Chino Hills"
   description="We offer dog grooming services in the Chino Hills area. We are a low-volume home-based boutique grooming salon. We take time to do the grooming" />
 
 <section class="intro">

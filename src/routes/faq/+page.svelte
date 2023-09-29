@@ -4,7 +4,7 @@
 
 <MetaTags
   title="Frequently Asked Questions"
-  description="Question about dog grooming services? Call us at (714) 253-2851 or (949) 372-8480. We are dog grooming salon near Chino Hills, Pomona, Eastvale, Corona, Ontario)" />
+  description="Question about dog grooming? Call us at (714) 253-2851 or (949) 372-8480. We are dog grooming salon near Chino Hills, Pomona, Eastvale, Corona, Ontario" />
 
 <section>
   <h1>F.A.Q</h1>

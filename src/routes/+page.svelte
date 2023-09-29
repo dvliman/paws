@@ -9,8 +9,8 @@
 </script>
 
 <MetaTags
-  title="Welcome"
-  titleTemplate="%s | Tiny Little Paws Dog Grooming"
+  title="Tiny Little Paws"
+  titleTemplate="%s | Dog Grooming Chino Hills"
   description="Dog Grooming Services in Chino Hills, CA"
   canonical="https://tinylittlepaws.com"
   openGraph={{

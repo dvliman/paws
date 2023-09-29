@@ -2,7 +2,7 @@
   import { MetaTags } from 'svelte-meta-tags';
 </script>
 
-<MetaTags title="Frequently Asked Questions" description="Any question about our pet grooming services?" />
+<MetaTags title="Frequently Asked Questions" description="Any question about our dog grooming services?" />
 
 <section>
   <h1>F.A.Q</h1>

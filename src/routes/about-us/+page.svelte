@@ -14,6 +14,9 @@
     Tiny Little Paws is a home-based pet grooming service in Chino Hills, CA. I went to grooming school and got certified at American Dog
     Grooming Academy in Temecula, California under the apprentice of Angela Clark.
   </p>
+  <p>
+    We offer dog grooming services in the Chino Hills area. We are a low-volume home-based boutique grooming salon. We take time to do the grooming. As a result, grooming would be a much less stressful experience for your pets. We prioritize taking care and attention to your dog.
+  </p>
 </section>
 
 <section class="stack-vertical">
@@ -22,21 +25,20 @@
     <div class="profile-card">
       <img src={Fiona} alt="Fiona" />
       <h3>Fiona L</h3>
-      <p>My name Fiona L and I am your groomer</p>
+      <p>I am your groomer</p>
     </div>
     <div class="profile-card">
       <img src={Tiny} alt="Tiny" />
       <h3>Tiny</h3>
       <p style="margin-bottom: .5rem">
-        Alerting of new occurences & very supportive in every way. The bread & butter of the
-        operation.
+        The bread & butter of the operation.
       </p>
       <a href="https://www.instagram.com/tinylittleyorkie/">@tinylittleyorkie</a>
     </div>
     <div class="profile-card">
       <img src={Taco} alt="Tacco" />
       <h3>Taco</h3>
-      <p>Very experienced, full of energy, go-getter! Loves attention.</p>
+      <p>Full of energy, go-getter! Loves attention.</p>
     </div>
     <div class="profile-card">
       <img src={Nino} alt="Nino" />
@@ -59,7 +61,6 @@
     @media (min-width: 798px) {
       flex-direction: row;
       gap: 4rem;
-      align-items: last baseline;
     }
     & h1 {
       flex: 1;

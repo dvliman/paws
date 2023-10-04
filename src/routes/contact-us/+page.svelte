@@ -6,63 +6,15 @@
 <MetaTags title="Contact Us - Dog Grooming Chino Hills" description="Call or text us. David at (714) 253-2851 and Fiona at (949) 372-8480. Or you can book appointment, we will follow up with questions" />
 
 <section>
-  <h1>Contact us</h1>
-  <div>
-    <Icon icon="akar-icons:location" />
-    <h3>Location</h3>
-    <p>Cross street of <strong>Butterfield Ranch Rd</strong> and <strong>Pine Ave</strong> in <strong>Chino Hills, CA</strong></p>
-  </div>
-  <div>
-    <Icon icon="akar-icons:clock" />
-    <h3>Hours</h3>
-    <ul>
-      <li>
-        <strong>Monday - Friday</strong>
-        <p>8:00 am - 5:00 pm</p>
-      </li>
-      <li>
-        <strong>Saturday</strong>
-        <p>8:00 am - 12:00 pm</p>
-      </li>
-      <li>
-        <strong>Sunday</strong>
-        <p>Closed</p>
-      </li>
-    </ul>
-  </div>
-  <div>
-    <Icon icon="akar-icons:phone" />
-    <h3>Phone</h3>
-    <ul>
-      <li>
-        <strong>(714) 253-2851 - David</strong>
-        <p>Text and Call</p>
-      </li>
-      <li>
-        <strong>(949) 372-8480 - Fiona</strong>
-        <p>Text only</p>
-      </li>
-    </ul>
-  </div>
-  <div>
-    <Icon icon="akar-icons:network" />
-    <h3>Social</h3>
-    <ul>
-      <li>
-        <strong>Instagram</strong>
-        <p><a href="https://instagram.com/tinylittlepawsla">@TinyLittlePawsLA</a></p>
-      </li>
-      <li>
-        <strong>Yelp</strong>
-        <p><a href="https://www.yelp.com/biz/tiny-little-paws-dog-grooming-services-chino-hills">Tiny Little Paws Dog Grooming Services, Chino Hills</a></p>
-      </li>
-    </ul>
-  </div>
 	<h1>Contact us</h1>
 	<div>
 		<Icon icon="akar-icons:location" />
 		<h3>Location</h3>
-		<p>Cross street of Butterfield Ranch Rd and Pine Ave in Chino Hills, CA</p>
+		<!-- <p>Cross street of Butterfield Ranch Rd and Pine Ave in Chino Hills, CA</p> -->
+		<p><a 
+			on:click={() => track('contact:address')}
+			class="address" href="https://www.google.com/maps/place/16561+China+Berry+Ct,+Chino+Hills,+CA+91709/@33.952762,-117.6871936,17z/data=!3m1!4b1!4m6!3m5!1s0x80dccc53e01b3dcf:0xe6fa5c3cfa8875b6!8m2!3d33.952762!4d-117.6846187!16s%2Fg%2F11crqhl21y?entry=ttu">
+			16561 China Berry Ct, Chino Hills, CA 91709</a></p>
 	</div>
 	<div>
 		<Icon icon="akar-icons:clock" />
@@ -103,12 +55,16 @@
 		<h3>Phone</h3>
 		<ul>
 			<li>
-				<strong>(714) 253-2851</strong>
-				<p>Text and Call</p>
+			    <a
+          on:click={() => track('contact:david')}
+          href="sms:+17142532851?&body=Can I schedule an appointment? My dog's weight is"
+          >(714) 253-2851</a>
 			</li>
 			<li>
-				<strong>(949) 372-8480</strong>
-				<p>Text only</p>
+				<a
+				on:click={() => track('contact:fiona')}
+				href="sms:+19493728480?&body=Can I schedule an appointment? My dog's weight is"
+				>(949) 372-8480</a>
 			</li>
 		</ul>
 	</div>
@@ -118,11 +74,15 @@
 		<ul>
 			<li>
 				<strong>Instagram</strong>
-				<p><a href="https://instagram.com/tinylittlepawsla">@TinyLittlePawsLA</a></p>
+				<p><a 
+					on:click={() => track('contact:instgram')}
+					href="https://instagram.com/tinylittlepawsla">@TinyLittlePawsLA</a></p>
 			</li>
 			<li>
 				<strong>Yelp</strong>
-				<p><a href="https://www.yelp.com/biz/tiny-little-paws-dog-grooming-services-chino-hills">Tiny Little Paws Dog Grooming Services, Chino Hills</a></p>
+				<p><a 
+					on:click={() => track('contact:yelp')}
+					href="https://www.yelp.com/biz/tiny-little-paws-dog-grooming-services-chino-hills">Tiny Little Paws Dog Grooming Services, Chino Hills</a></p>
 			</li>
 		</ul>
 	</div>

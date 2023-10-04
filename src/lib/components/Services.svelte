@@ -92,7 +92,7 @@
           Bath using high-quality specialized shampoo
         </li>
         <li>
-          <Icon icon="akar-icons:circle-check" />Anal glands expression
+          <Icon icon="akar-icons:circle-check" />Anal glands expression (upon request)
         </li>
         <li>
           <Icon icon="akar-icons:circle-check" />Fluff drying & brush out

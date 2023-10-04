@@ -167,10 +167,14 @@
     <h2>Dog Grooming</h2>
     <address>
       <p>
-        Cross street of <strong>Butterfield Ranch Rd</strong><br />and
+        <a 
+        on:click={() => track('footer:address')}
+        style="color:black" href="https://www.google.com/maps/place/16561+China+Berry+Ct,+Chino+Hills,+CA+91709/@33.952762,-117.6871936,17z/data=!3m1!4b1!4m6!3m5!1s0x80dccc53e01b3dcf:0xe6fa5c3cfa8875b6!8m2!3d33.952762!4d-117.6846187!16s%2Fg%2F11crqhl21y?entry=ttu">
+        16561 China Berry Ct, Chino Hills, CA 91709</a>
+        <!-- Cross street of <strong>Butterfield Ranch Rd</strong><br />and
         <strong>Pine Ave</strong> in Chino Hills
         <br />
-        <i>(contact us to get the exact address)</i>
+        <i>(contact us to get the exact address)</i> -->
       </p>
       <div>
         Fiona: <a

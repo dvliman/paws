@@ -22,27 +22,27 @@
 		<ul>
 			<li>
 				<strong>Monday</strong>
-				<p>8:00 am - 5:00 pm</p>
+				<p>9:00 am - 5:00 pm</p>
 			</li>
 			<li>
 				<strong>Tuesday</strong>
-				<p>8:00 am - 5:00 pm</p>
+				<p>9:00 am - 5:00 pm</p>
 			</li>
 			<li>
 				<strong>Wednesday</strong>
-				<p>8:00 am - 5:00 pm</p>
+				<p>9:00 am - 5:00 pm</p>
 			</li>
 			<li>
 				<strong>Thursday</strong>
-				<p>8:00 am - 5:00 pm</p>
+				<p>9:00 am - 5:00 pm</p>
 			</li>
 			<li>
 				<strong>Friday</strong>
-				<p>8:00 am - 5:00 pm</p>
+				<p>9:00 am - 5:00 pm</p>
 			</li>
 			<li>
 				<strong>Saurday</strong>
-				<p>8:00 am - 12:00 pm</p>
+				<p>9:00 am - 12:00 pm</p>
 			</li>
 			<li>
 				<strong>Sunday</strong>

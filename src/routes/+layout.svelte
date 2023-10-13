@@ -9,10 +9,10 @@
       openOrClosed = 'Sorry, we are closed today';
       break;
     case 6:
-      openOrClosed = 'We are open half-day today from 8:00 a.m. to 12:00 p.m';
+      openOrClosed = 'We are open half-day today from 9:00 a.m. to 12:00 p.m';
       break;
     default:
-      openOrClosed = 'We are open today from 8:00 a.m. to 5:00 p.m';
+      openOrClosed = 'We are open today from 9:00 a.m. to 5:00 p.m';
   }
 
   let show = false;
@@ -196,37 +196,37 @@
       <tbody>
         <tr>
           <td>Mon</td>
-          <td>8:00 AM</td>
+          <td>9:00 AM</td>
           <td>-</td>
           <td>5:00 PM</td>
         </tr>
         <tr>
           <td>Tue</td>
-          <td>8:00 AM</td>
+          <td>9:00 AM</td>
           <td>-</td>
           <td>5:00 PM</td>
         </tr>
         <tr>
           <td>Wed</td>
-          <td>8:00 AM</td>
+          <td>9:00 AM</td>
           <td>-</td>
           <td>5:00 PM</td>
         </tr>
         <tr>
           <td>Thu</td>
-          <td>8:00 AM</td>
+          <td>9:00 AM</td>
           <td>-</td>
           <td>5:00 PM</td>
         </tr>
         <tr>
           <td>Fri</td>
-          <td>8:00 AM</td>
+          <td>9:00 AM</td>
           <td>-</td>
           <td>5:00 PM</td>
         </tr>
         <tr>
           <td>Sat</td>
-          <td>8:00 AM</td>
+          <td>9:00 AM</td>
           <td>-</td>
           <td>12:00 PM</td>
         </tr>

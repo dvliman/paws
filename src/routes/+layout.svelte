@@ -6,10 +6,8 @@
   let openOrClosed;
   switch (new Date().getDay()) {
     case 0:
+    case 1:
       openOrClosed = 'Sorry, we are closed today';
-      break;
-    case 6:
-      openOrClosed = 'We are open half-day today from 9:00 a.m. to 12:00 p.m';
       break;
     default:
       openOrClosed = 'We are open today from 9:00 a.m. to 5:00 p.m';
@@ -226,9 +224,7 @@
         </tr>
         <tr>
           <td>Sat</td>
-          <td>9:00 AM</td>
-          <td>-</td>
-          <td>12:00 PM</td>
+          <td>Closed</td>
         </tr>
         <tr>
           <td>Sun</td>

@@ -42,7 +42,7 @@
 			</li>
 			<li>
 				<strong>Saurday</strong>
-				<p>9:00 am - 12:00 pm</p>
+				<p>Closed</p>
 			</li>
 			<li>
 				<strong>Sunday</strong>

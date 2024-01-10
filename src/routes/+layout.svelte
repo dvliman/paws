@@ -11,7 +11,7 @@
       // break;
     default:
       // openOrClosed = 'We are open today from 9:00 a.m. to 5:00 p.m';
-      openOrClosed = 'We are currently closed. Fiona is pregnant'
+      openOrClosed = 'We are temporarily closed. Fiona is currently pregnant and need bedrest. Call us after missing 3 - 4 appointments.'
   }
 
   let show = false;
@@ -79,12 +79,12 @@
 <section>
   <div class="container">
     <div class="info">
-      <span class="hide-in-mobile">{openOrClosed}</span>
+      <span class="hide-in-mobile"><strong>{openOrClosed}</strong></span>
       <span class="hide-in-mobile">•</span>
       <!-- <span class="hide-in-mobile">
         <strong>$10 off on the first appointment!</strong>
-      </span> -->
-      <span class="hide-in-mobile">•</span>
+      </span>
+      <span class="hide-in-mobile">•</span>-->
       <span>
         <!-- <a
           on:click={() => track('sms:david')}

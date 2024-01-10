@@ -22,23 +22,23 @@
 		<ul>
 			<li>
 				<strong>Monday</strong>
-				<p>9:00 am - 5:00 pm</p>
+				<p>9:00 am - 5:00 pm (temporarily closed - pregnant)</p>
 			</li>
 			<li>
 				<strong>Tuesday</strong>
-				<p>9:00 am - 5:00 pm</p>
+				<p>9:00 am - 5:00 pm (temporarily closed - pregnant)</p>
 			</li>
 			<li>
 				<strong>Wednesday</strong>
-				<p>9:00 am - 5:00 pm</p>
+				<p>9:00 am - 5:00 pm (temporarily closed - pregnant)</p>
 			</li>
 			<li>
 				<strong>Thursday</strong>
-				<p>9:00 am - 5:00 pm</p>
+				<p>9:00 am - 5:00 pm (temporarily closed - pregnant)</p>
 			</li>
 			<li>
 				<strong>Friday</strong>
-				<p>9:00 am - 5:00 pm</p>
+				<p>9:00 am - 5:00 pm (temporarily closed - pregnant)</p>
 			</li>
 			<li>
 				<strong>Saurday</strong>

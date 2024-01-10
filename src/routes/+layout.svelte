@@ -7,10 +7,11 @@
   switch (new Date().getDay()) {
     case 0:
     case 1:
-      openOrClosed = 'Sorry, we are closed today';
-      break;
+      // openOrClosed = 'Sorry, we are closed today';
+      // break;
     default:
-      openOrClosed = 'We are open today from 9:00 a.m. to 5:00 p.m';
+      // openOrClosed = 'We are open today from 9:00 a.m. to 5:00 p.m';
+      openOrClosed = 'We are currently closed. Fiona is pregnant'
   }
 
   let show = false;
@@ -80,16 +81,16 @@
     <div class="info">
       <span class="hide-in-mobile">{openOrClosed}</span>
       <span class="hide-in-mobile">•</span>
-      <span class="hide-in-mobile">
+      <!-- <span class="hide-in-mobile">
         <strong>$10 off on the first appointment!</strong>
-      </span>
+      </span> -->
       <span class="hide-in-mobile">•</span>
       <span>
-        <a
+        <!-- <a
           on:click={() => track('sms:david')}
           href="sms:+17142532851?&body=Can I schedule an appointment? My dog's weight is"
           >(714) 253-2851</a>
-        or
+        or -->
         <a
           on:click={() => track('sms:fiona')}
           href="sms:+19493728480?&body=Can I schedule an appointment? My dog's weight is"
@@ -196,31 +197,31 @@
           <td>Mon</td>
           <td>9:00 AM</td>
           <td>-</td>
-          <td>5:00 PM</td>
+          <td>5:00 PM (temporarily closed - pregnant)</td>
         </tr>
         <tr>
           <td>Tue</td>
           <td>9:00 AM</td>
           <td>-</td>
-          <td>5:00 PM</td>
+          <td>5:00 PM (temporarily closed - pregnant)</td>
         </tr>
         <tr>
           <td>Wed</td>
           <td>9:00 AM</td>
           <td>-</td>
-          <td>5:00 PM</td>
+          <td>5:00 PM (temporarily closed - pregnant)</td>
         </tr>
         <tr>
           <td>Thu</td>
           <td>9:00 AM</td>
           <td>-</td>
-          <td>5:00 PM</td>
+          <td>5:00 PM (temporarily closed - pregnant)</td>
         </tr>
         <tr>
           <td>Fri</td>
           <td>9:00 AM</td>
           <td>-</td>
-          <td>5:00 PM</td>
+          <td>5:00 PM (temporarily closed - pregnant)</td>
         </tr>
         <tr>
           <td>Sat</td>

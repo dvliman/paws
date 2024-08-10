@@ -1,7 +1,6 @@
 <script>
   import Welcome from '$lib/components/Welcome.svelte';
   import Services from '$lib/components/Services.svelte';
-  // import Discounts from '$lib/components/Discounts.svelte';
   import Testimonials from '$lib/components/Testimonials.svelte';
   
   import TinyOpenGraph from '$lib/assets/tiny-open-graph.png';
@@ -66,6 +65,5 @@
 
 <Welcome />
 <Services />
-<!-- <Discounts /> -->
 <Testimonials />
 

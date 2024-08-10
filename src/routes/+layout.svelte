@@ -11,7 +11,7 @@
       // break;
     default:
       // openOrClosed = 'We are open today from 9:00 a.m. to 5:00 p.m';
-      openOrClosed = 'We are temporarily closed. Fiona is currently pregnant and need bedrest. Call us after missing 3 - 4 appointments.'
+      openOrClosed = 'We are temporarily closed. Fiona is currently in postpartum. Call us after missing 3 - 4 appointments.'
   }
 
   let show = false;

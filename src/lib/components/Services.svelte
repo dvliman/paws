@@ -20,23 +20,27 @@
     <ul>
       <li>
         <div><span>1 - 15 lbs</span><span>Tiny dogs</span></div>
-        <div class="price">$35</div>
+        <div class="price">$40</div>
       </li>
       <li>
-        <div><span>16 - 35 lbs</span><span>Small dogs</span></div>
-        <div class="price">$45</div>
+        <div><span>16 - 30 lbs</span><span>Small dogs</span></div>
+        <div class="price">$50</div>
       </li>
       <li>
-        <div><span>36 - 50 lbs</span><span>Medium dogs</span></div>
+        <div><span>31 - 45 lbs</span><span>Medium dogs</span></div>
         <div class="price">$60</div>
       </li>
       <li>
-        <div><span>51 - 75 lbs</span><span>Large dogs</span></div>
+        <div><span>45 - 55 lbs</span><span>Large dogs</div>
         <div class="price">$70</div>
       </li>
       <li>
-        <div><span>76 lbs & up</span><span>XLarge dogs</span></div>
-        <div class="price">$75</div>
+        <div><span>55 - 75 lbs</span></div>
+        <div class="price">$80</div>
+      </li>
+      <li>
+        <div><span>86 lbs & up</span></div>
+        <div class="price">$90</div>
       </li>
     </ul>
   </div>
@@ -57,15 +61,19 @@
         <div class="price">$55</div>
       </li>
       <li>
-        <div><span>16 - 35 lbs</span><span>Small dogs</span></div>
+        <div><span>16 - 30 lbs</span><span>Small dogs</span></div>
         <div class="price">$65</div>
       </li>
       <li>
-        <div><span>36 - 50 lbs</span><span>Medium dogs</span></div>
+        <div><span>31 - 45 lbs</span><span>Medium dogs</span></div>
+        <div class="price">$75</div>
+      </li>
+      <li>
+        <div><span>45 - 55 lbs</span><span>Large dogs</span></div>
         <div class="price">$85</div>
       </li>
       <li>
-        <div><span>51 - 75 lbs</span><span>Large dogs</span></div>
+        <div><span>55 - 75 lbs</span><span>Large dogs</span></div>
         <div class="price">$115</div>
       </li>
       <li>

@@ -6,12 +6,12 @@
   let openOrClosed;
   switch (new Date().getDay()) {
     case 0:
-    case 1:
-      // openOrClosed = 'Sorry, we are closed today';
-      // break;
+    case 6:
+      openOrClosed = 'Sorry, we are closed today';
+      break;
     default:
-      // openOrClosed = 'We are open today from 9:00 a.m. to 5:00 p.m';
-      openOrClosed = 'We are temporarily closed. Fiona is currently in postpartum. Call us after missing 3 - 4 appointments.'
+      openOrClosed = 'We are open today from 9:00 a.m. to 5:00 p.m';
+      // openOrClosed = 'We are temporarily closed. Fiona is currently in postpartum. Call us after missing 3 - 4 appointments.'
   }
 
   let show = false;
@@ -197,31 +197,31 @@
           <td>Mon</td>
           <td>9:00 AM</td>
           <td>-</td>
-          <td>5:00 PM (temporarily closed - pregnant)</td>
+          <td>5:00 PM </td>
         </tr>
         <tr>
           <td>Tue</td>
           <td>9:00 AM</td>
           <td>-</td>
-          <td>5:00 PM (temporarily closed - pregnant)</td>
+          <td>5:00 PM </td>
         </tr>
         <tr>
           <td>Wed</td>
           <td>9:00 AM</td>
           <td>-</td>
-          <td>5:00 PM (temporarily closed - pregnant)</td>
+          <td>5:00 PM </td>
         </tr>
         <tr>
           <td>Thu</td>
           <td>9:00 AM</td>
           <td>-</td>
-          <td>5:00 PM (temporarily closed - pregnant)</td>
+          <td>5:00 PM </td>
         </tr>
         <tr>
           <td>Fri</td>
           <td>9:00 AM</td>
           <td>-</td>
-          <td>5:00 PM (temporarily closed - pregnant)</td>
+          <td>5:00 PM </td>
         </tr>
         <tr>
           <td>Sat</td>

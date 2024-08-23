@@ -31,15 +31,15 @@
         <div class="price">$60</div>
       </li>
       <li>
-        <div><span>45 - 55 lbs</span><span>Large dogs</div>
+        <div><span>45 - 55 lbs</span><span>Large dogs</span></div>
         <div class="price">$70</div>
       </li>
       <li>
-        <div><span>55 - 75 lbs</span></div>
+        <div><span>55 - 75 lbs</span><span>Large dogs</span></div>
         <div class="price">$80</div>
       </li>
       <li>
-        <div><span>86 lbs & up</span></div>
+        <div><span>86 lbs & up</span><span>XLarge dogs</span></div>
         <div class="price">$90</div>
       </li>
     </ul>

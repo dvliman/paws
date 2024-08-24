@@ -7,7 +7,7 @@
     <h1>Welcome to Tiny Little Paws!</h1>
     <p>
       Hi there! My name is Fiona. My husband and I run a dog grooming service out of our Chino Hills
-      (California) home. Finding a groomer can be tricky, so we want you to feel comfortable with
+       home. Finding a groomer can be tricky, so we want you to feel comfortable with
       us.
       <br /><br />
       That is why we put together this website to give you a good idea of
